@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ course.title }} - منصة التعلم الذكي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --accent-color: #4cc9f0;
+            --dark-color: #1a1a2e;
+            --light-color: #f8f9fa;
+            --card-bg: #16213e;
+            --text-color: #e2e2e2;
+            --text-secondary: #b8b8b8;
+            --success-color: #4ade80;
+        }
+        
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--dark-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        
+        /* تصميم الهيدر - نفس التصميم السابق */
+        .hero-slider {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .main-header {
+            background: rgba(26, 26, 46, 0.9);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 15px 30px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* تصميم محتوى الدورة */
+        .course-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .course-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .course-title {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .course-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            margin-bottom: 30px;
+        }
+        
+        .course-details {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .course-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .meta-item {
+            background: rgba(76, 201, 240, 0.1);
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .meta-item i {
+            color: var(--accent-color);
+        }
+        
+        .course-description {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        
+        /* قسم الدفع الإلكتروني */
+        .payment-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .payment-title {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+        
+        .payment-price {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--success-color);
+            margin-bottom: 30px;
+        }
+        
+        .payment-price span {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            text-decoration: line-through;
+        }
+        
+        .payment-methods {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .payment-method {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            width: 80px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .payment-method:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .payment-method img {
+            max-width: 100%;
+            max-height: 100%;
+            filter: grayscale(30%);
+        }
+        
+        .payment-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+        }
+        
+        .payment-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(67, 97, 238, 0.4);
+        }
+        
+        .payment-features {
+            margin-top: 30px;
+            text-align: right;
+        }
+        
+        .payment-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+        }
+        
+        .payment-feature i {
+            color: var(--success-color);
+        }
+        
+        /* قسم الدورات المشابهة */
+        .related-courses {
+            margin-top: 60px;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgba(76, 201, 240, 0.3);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            width: 100px;
+            height: 2px;
+            background: var(--accent-color);
+        }
+        
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .course-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .course-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .course-card-content {
+            padding: 20px;
+        }
+        
+        .course-card-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--accent-color);
+        }
+        
+        .course-card-type {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .view-course-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .view-course-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        
+        .no-courses {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            padding: 40px 0;
+        }
+        
+        /* التكيف مع الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            .course-title {
+                font-size: 2rem;
+            }
+            
+            .course-meta {
+                flex-direction: column;
+            }
+            
+            .courses-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .payment-methods {
+                gap: 10px;
+            }
+            
+            .payment-method {
+                width: 60px;
+                height: 40px;
+                padding: 10px;
+            }
+            
+            .payment-btn {
+                padding: 12px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    {% include 'user/header.html' %}
+    
+    <div class="course-container">
+        <div class="course-header">
+            <h1 class="course-title">{{ course.title }}</h1>
+        </div>
+        
+        <img src="{{ course.image_url }}" alt="{{ course.title }}" class="course-image">
+        
+        <div class="course-details">
+            <div class="course-meta">
+                <div class="meta-item">
+                    <i class="fas fa-tag"></i>
+                    <span>نوع الدورة: {{ course.course_type }}</span>
+                </div>
+            </div>
+            
+            <div class="course-description">
+                <h3 style="color: var(--accent-color); margin-bottom: 15px;">وصف الدورة:</h3>
+                <p>{{ course.description }}</p>
+            </div>
+        </div>
+        
+        <!-- قسم الدفع الإلكتروني - سيظهر فقط إذا كانت الدورة مدفوعة -->
+        {% if course.course_type == "مدفوعة" %}
+        <div class="payment-section">
+            <h2 class="payment-title">اشترك في الدورة الآن</h2>
+             <del><span class="discounted-price">{{ original_price }}$</span></del>
+            <span class="payment-price">${{ discounted_price }}</span>
+            </div>
+            
+         <div class="payment-methods">
+      <div class="payment-method" onclick="redirectToPayPal(
+        '{{ course.title }}',
+        '{{ course.image_url }}',
+        '{{ course.type }}',
+        '{{ original_price }}',
+        '{{ discounted_price }}'
+    )">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="PayPal">
+    </div>
+
+<!-- زر باي بال -->
+<div class="payment-method" onclick="redirectToPayment('user/payment/visa')">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="PayPal">
+</div>
+
+    
+    <!-- زر واتساب (فتح محادثة برقمك) -->
+    <div class="payment-method" onclick="openWhatsApp()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/WhatsApp_Logo_green.svg" alt="WhatsApp">
+    </div>
+</div>
+
+<script>
+// دالة للدفع بفيزا/ماستركارد (إعادة توجيه إلى صفحة الدفع)
+function redirectToPayPal(title, image, type, originalPrice, discountedPrice) {
+    const params = new URLSearchParams();
+    params.append('title',title);
+    params.append('image', image);
+    params.append('type', type);
+    params.append('originalPrice', originalPrice);
+    params.append('discountedPrice', discountedPrice);
+    
+    window.location.href = `user/payment/paypal?${params.toString()}`;
+}
+function redirectToPayment(url) {
+   
+    window.location.href = url;
+    
+    // أو إذا أردت فتحها في نافذة جديدة:
+    // window.open(url, '_blank');
+}
+// دالة لفتح واتساب مع رسالة مخصصة
+function openWhatsApp() {
+    const phoneNumber = "967715206725"; // استبدله برقمك مع رمز الدولة (مثال: 966 للسعودية)
+    const message = "مرحباً، أريد الدفع عبر واتساب"; // يمكن تخصيص الرسالة
+    window.open(`https://wa.me/${phoneNumber}?text=${message}\n لدورة ({{course.title}})\n {{course.image_url}}`, '_blank');
+}
+</script>
+
+<style>
+.payment-method {
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.payment-method:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.payment-method img {
+    width: 80px;
+    height: auto;
+}
+</style>
+            
+            <button class="payment-btn">
+                <i class="fas fa-lock"></i>
+                ادفع الآن بشكل آمن
+            </button>
+            
+            <div class="payment-features">
+                <div class="payment-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>ضمان استرداد الأموال خلال 14 يوم</span>
+                </div>
+                <div class="payment-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>دفع آمن عبر قنوات مشفرة</span>
+                </div>
+                <div class="payment-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>وصول فوري إلى محتوى الدورة</span>
+                </div>
+            </div>
+      
+        {% endif %}
+        
+        <div class="related-courses">
+            <h2 class="section-title">دورات مشابهة</h2>
+            
+            {% if related_courses %}
+                <div class="courses-grid">
+                    {% for related_course in related_courses %}
+                    <div class="course-card">
+                        <img src="{{ related_course.image_url }}" alt="{{ related_course.title }}">
+                        <div class="course-card-content">
+                            <h3 class="course-card-title">{{ related_course.title }}</h3>
+                            <p class="course-card-type">{{ related_course.course_type }}</p>
+                            <a href="{{ related_course.course_link }}" class="view-course-btn">عرض الدورة</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="no-courses">
+                    <p>لا توجد دورات مشابهة حالياً</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
