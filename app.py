@@ -1,3 +1,4 @@
+from collections import defaultdict
 import time
 from flask import Flask, Response, render_template, redirect, url_for, request, flash, jsonify, session
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
@@ -8,12 +9,10 @@ import logging
 from model import db, User, Course, reset_database, Message
 import json
 import httpx
-import asyncio
 import jwt
-import unittest
 from flask_testing import TestCase
 import datetime
-
+import test_app
 app = Flask(__name__)
 app.secret_key = 'Os(int;;);' 
 login_manager = LoginManager()
@@ -38,7 +37,7 @@ def load_user(user_id):
     return User.query.get(int(user_id))
 
 def create_token(user_id):
-    expiration_time = datetime.datetime.utcnow() + datetime.timedelta(minutes=5) 
+    expiration_time = datetime.datetime.utcnow() + datetime.timedelta(hours=5) 
     payload = {
         'user_id': user_id,
         'exp': expiration_time
@@ -66,52 +65,79 @@ def token():
         return redirect(url_for('login'))
 
     expiration_time = session.get('token_expiration') 
+@app.before_request
+def check_admin_token():
+    if current_user.is_authenticated and current_user.is_admin and 'token' in session:
+        session.pop('token', None)
+        session.pop('token_expiration', None)
+        return redirect(url_for('home'))
 
 @app.route('/')
 @login_required
 def home():
-    token = session.get('token')
-    if not token:
-        return redirect(url_for('login'))
+    # استرجاع استعلام البحث من شريط البحث
+    search_query = request.args.get('q', '').strip()
 
-    decoded_payload = verify_token(token)
-    if isinstance(decoded_payload, str): 
-        flash(decoded_payload)
-        return redirect(url_for('login'))
+    # التحقق من التوكن إن لم يكن المستخدم مشرفاً
+    if not current_user.is_admin:
+        token = session.get('token')
+        if not token:
+            return redirect(url_for('login'))
 
-    expiration_time = session.get('token_expiration') 
-    # استرجاع الدورات المميزة
+        decoded_payload = verify_token(token)
+        if isinstance(decoded_payload, str):
+            flash(decoded_payload)
+            return redirect(url_for('login'))
+    else:
+        logging.info(f'Admin {current_user.username} accessed home page directly')
+
+    # تنفيذ البحث إن وُجدت كلمة مفتاحية
+    if search_query:
+        courses = Course.query.filter(
+            db.or_(
+                Course.title.ilike(f'%{search_query}%'),
+                Course.description.ilike(f'%{search_query}%'),
+                Course.course_type.ilike(f'%{search_query}%')
+            )
+        ).all()
+    else:
+        courses = Course.query.all()
+
+    # تجميع الدورات حسب النوع
+    courses_by_type = defaultdict(list)
+    for course in courses:
+        courses_by_type[course.course_type].append(course)
+
+    # استرجاع الكورسات المميزة
     featured_courses = Course.query.filter_by(is_featured=True).all()
     logging.info(f'Total featured courses retrieved: {len(featured_courses)}')
-    
-    # استرجاع جميع الدورات
-    all_courses = Course.query.all() 
-    logging.info(f'Total courses retrieved: {len(all_courses)}')
-    
-    unique_course_types = set(course.course_type for course in all_courses)
-    
-    courses_by_type = {}
-    for course in all_courses:
-        if course.course_type not in courses_by_type:
-            courses_by_type[course.course_type] = []
-        courses_by_type[course.course_type].append(course)
-    
-    username = current_user.username if current_user.is_authenticated else 'زائر'
-    is_admin = current_user.is_admin if current_user.is_authenticated else False 
-    
-    return render_template('user/index.html', 
-                           username=username, 
-                           courses_by_type=courses_by_type, 
-                           unique_course_types=unique_course_types, 
-                           is_admin=is_admin,
-                           featured_courses=featured_courses) 
+    logging.info(f'Total courses retrieved: {len(courses)}')
 
+    # استخراج أنواع الدورات الفريدة
+    unique_course_types = list(courses_by_type.keys())
 
+    # التحقق إن كانت نتيجة البحث فارغة
+    no_results = bool(search_query and not courses)
+
+    # تمرير جميع البيانات إلى القالب
+    return render_template(
+        'user/index.html',
+        username=current_user.username,
+        courses_by_type=courses_by_type,
+        unique_course_types=unique_course_types,
+        is_admin=current_user.is_admin,
+        featured_courses=featured_courses,
+        search_query=search_query,
+        no_results=no_results
+    )
 
 @app.route('/user/about')
 def about():
     return render_template('user/about.html')
 
+@app.route('/user/Information')
+def Information():
+    return render_template('user/Information.html')
 
 @app.route('/user/payment/visa')
 def visa():
@@ -247,24 +273,32 @@ def edit_account():
 @app.route('/user/profile')
 @login_required 
 def profile():
-    token = session.get('token')
-    if not token:
-        return redirect(url_for('login'))
+    # إذا كان المستخدم مشرفاً، تخطى التحقق من التوكن
+    if not current_user.is_admin:
+        # التحقق من التوكن للمستخدمين العاديين فقط
+        token = session.get('token')
+        if not token:
+            return redirect(url_for('login'))
 
-    decoded_payload = verify_token(token)
-    if isinstance(decoded_payload, str): 
-        flash(decoded_payload)
-        return redirect(url_for('login'))
+        decoded_payload = verify_token(token)
+        if isinstance(decoded_payload, str): 
+            flash(decoded_payload)
+            return redirect(url_for('login'))
 
-    expiration_time = session.get('token_expiration') 
+        expiration_time = session.get('token_expiration')
+        token_expiration_str = expiration_time.strftime('%Y-%m-%d %H:%M:%S') if expiration_time else None
+    else:
+        token = None
+        token_expiration_str = None
+
     user_data = {
         'username': current_user.username,
         'email': current_user.email,
         'join_date': current_user.created_at, 
         'likes_count': current_user.likes_count,
         'shares_count': current_user.shares_count,
-        'token': token,  
-        'token_expiration': expiration_time.strftime('%Y-%m-%d %H:%M:%S') 
+        'token': token,  # سيكون None للمشرفين
+        'token_expiration': token_expiration_str  # سيكون None للمشرفين
     }
     
     return render_template('user/profileuserr.html', user_data=user_data)
@@ -508,7 +542,7 @@ def logout():
     session.pop('token', None) 
     session.pop('token_expiration', None) 
     logging.info(f'User {username} logged out successfully.')
-    return redirect(url_for('home'))
+    return redirect(url_for('login'))
 
 @app.route('/admin/admin_courses')
 def admin_courses():

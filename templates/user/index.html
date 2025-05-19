@@ -329,6 +329,18 @@
 <body>
     
  {% include 'user/header.html' %}
+ 
+{% if no_results %}
+<div class="alert alert-warning d-flex align-items-center shadow-sm rounded-3 p-3 mt-4" role="alert" style="background-color: #ffffff; border: 1px solid #f00000;">
+  <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ff0000" class="bi bi-search me-3 text-warning" viewBox="0 -1 16 16">
+    <path d="M11 6a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+    <path d="M14.293 13.707a1 1 0 0 1-1.414 0l-3.387-3.387a6 6 0 1 1 1.414-1.414l3.387 3.387a1 1 0 0 1 0 1.414z"/>
+  </svg>
+  <div class="flex-grow-1"style="color: red; font: 1em sans-serif; text-align:center">
+    <strong>عذرًا!</strong> لم يتم العثور على نتائج تتطابق مع "<span class="text-decoration-underline">{{ search_query }}</span>".
+  </div>
+</div>
+{% endif %}
     <div class="container my-5">
         <!-- Featured Courses Section -->
         <section class="featured-section fade-in">
@@ -349,6 +361,7 @@
                 {% endfor %}
             </div>
         </section>
+
 
         <section class="category-section fade-in">
             {% for course_type, courses in courses_by_type.items() %}

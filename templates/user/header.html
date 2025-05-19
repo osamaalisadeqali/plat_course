@@ -154,7 +154,7 @@
     }
     
     .nav-links a:hover, .nav-links button:hover {
-        color: var(--accent-color);
+        color: red;
         background: rgba(76, 201, 240, 0.1);
     }
     
@@ -248,7 +248,7 @@
     }
     
     .menu-icon:hover {
-        color: var(--accent-color);
+        color: red;
     }
     
     /* التكيف مع الشاشات الصغيرة */
@@ -315,6 +315,100 @@
             grid-template-columns: 1fr;
         }
     }
+        /* Search Form Styles */
+    .search-form {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        margin: 5px;
+    }
+    
+    .search-container {
+        position: relative;
+    }
+    
+    .search-input-group {
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        padding: 5px 15px;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .search-input-group:focus-within {
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.3);
+        border-color: var(--primary-color);
+    }
+    
+    .search-input {
+        background: transparent;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        flex-grow: 1;
+        font-size: 0.95rem;
+    }
+    
+    .search-input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .search-input:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    
+    .search-btn {
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+        padding: 0 10px;
+        font-size: 1.1rem;
+        transition: all 0.2s ease;
+    }
+    
+    .search-btn:hover {
+        color: white;
+        transform: scale(1.1);
+    }
+    
+    .search-suggestions {
+        position: absolute;
+        width: 100%;
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        overflow: hidden;
+        display: none;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .search-form {
+            padding: 0 15px;
+        }
+        
+        .search-input {
+            padding: 8px 12px;
+            font-size: 0.9rem;
+        }
+    }
+    
+    /* Animation for search focus */
+    @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(67, 97, 238, 0.4); }
+        70% { box-shadow: 0 0 0 10px rgba(67, 97, 238, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(67, 97, 238, 0); }
+    }
+    
+    .search-input-group.active {
+        animation: pulse 1.5s infinite;
+    }
+  
 </style>
 
 <!-- شريط الصور المتحرك -->
@@ -347,24 +441,44 @@
         </div>
         
         <nav>
+            
             <div class="nav-links" id="navbar">
+    <form method="GET" action="{{ url_for('home') }}" class="search-form">
+        <div class="search-container">
+            <div class="search-input-group">
+                <input class="form-control search-input" 
+                       type="search" 
+                       name="q" 
+                       placeholder="ابحث عن دورات..."
+                       value="{{ search_query or '' }}"
+                       aria-label="بحث"
+                       autocomplete="off">
+                <button class="btn search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="search-suggestions mt-2"></div>
+        </div>
+    </form>
                 <a href="/">الرئيسية</a>
                 
                 {% if not current_user.is_authenticated %}
-                <a href="/user/login">تسجيل الدخول</a>
+                <a href="/user/login">الدخول</a>
                 {% endif %}
                 
-                {% if current_user.is_authenticated %}
-                <a href="/user/api">توثيق APIs</a>
-                <a href="/user/contantgroup">تواصل جماعي</a>
-                <a href="/user/logout">تسجيل خروج</a>
+                 {% if current_user.is_authenticated %}
+                   <a href="/user/logout">خروج</a>
+                <a href="/user/api">توثيق</a>
+                <a href="/user/contantgroup">تواصل</a>
+              
                 {% endif %}
                 
                 {%if is_admin %}
-                <a href="/admin/index">التحكم المركزي</a>
+                <a href="/admin/index" target="_blank">القيادة</a>
                 {% endif %}
-                
-                <a href="/user/about">عن المنصة</a>
+               
+                <a href="/user/about">منصتي</a>
+                <a href="/user/Information">معلومة</a>
                 <button onclick="toggleSpecializationPopup(event)">الدورات</button>
          
             </div>
