@@ -29442,3 +29442,343 @@
 2025-05-20 16:04:22,855 - INFO - Total courses retrieved: 6
 2025-05-20 16:04:22,857 - INFO - 127.0.0.1 - - [20/May/2025 16:04:22] "GET / HTTP/1.1" 200 -
 2025-05-20 16:04:22,890 - INFO - 127.0.0.1 - - [20/May/2025 16:04:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:21:47,577 - INFO -  * Restarting with stat
+2025-05-20 16:21:49,180 - WARNING -  * Debugger is active!
+2025-05-20 16:21:49,192 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:21:49,489 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:21:55,336 - INFO - 127.0.0.1 - - [20/May/2025 16:21:55] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-05-20 16:22:02,004 - INFO - 127.0.0.1 - - [20/May/2025 16:22:02] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:22:02,085 - INFO - 127.0.0.1 - - [20/May/2025 16:22:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 16:22:06,327 - INFO - 127.0.0.1 - - [20/May/2025 16:22:06] "[33mGET /courses HTTP/1.1[0m" 404 -
+2025-05-20 16:22:35,119 - INFO - 127.0.0.1 - - [20/May/2025 16:22:35] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:22:47,751 - INFO - 127.0.0.1 - - [20/May/2025 16:22:47] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:23:51,656 - INFO - 127.0.0.1 - - [20/May/2025 16:23:51] "[33mGET /course.html HTTP/1.1[0m" 404 -
+2025-05-20 16:23:55,010 - INFO - 127.0.0.1 - - [20/May/2025 16:23:55] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:23:55,330 - INFO - 127.0.0.1 - - [20/May/2025 16:23:55] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:23:59,734 - INFO - 127.0.0.1 - - [20/May/2025 16:23:59] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-05-20 16:23:59,984 - INFO - 127.0.0.1 - - [20/May/2025 16:23:59] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-05-20 16:24:12,957 - INFO - 127.0.0.1 - - [20/May/2025 16:24:12] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:24:24,732 - INFO - 127.0.0.1 - - [20/May/2025 16:24:24] "[33mGET /user/course HTTP/1.1[0m" 404 -
+2025-05-20 16:24:28,102 - INFO - 127.0.0.1 - - [20/May/2025 16:24:28] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:24:28,354 - INFO - 127.0.0.1 - - [20/May/2025 16:24:28] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:24:49,810 - INFO - 127.0.0.1 - - [20/May/2025 16:24:49] "[31m[1mGET /course HTTP/1.1[0m" 401 -
+2025-05-20 16:24:59,396 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:24:59,669 - INFO -  * Restarting with stat
+2025-05-20 16:25:04,686 - INFO -  * Restarting with stat
+2025-05-20 16:25:06,444 - WARNING -  * Debugger is active!
+2025-05-20 16:25:06,457 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:25:06,720 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:25:06,824 - INFO - 127.0.0.1 - - [20/May/2025 16:25:06] "GET /course HTTP/1.1" 200 -
+2025-05-20 16:25:09,724 - INFO - 127.0.0.1 - - [20/May/2025 16:25:09] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:25:49,257 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:25:49,491 - INFO -  * Restarting with stat
+2025-05-20 16:25:52,368 - WARNING -  * Debugger is active!
+2025-05-20 16:25:52,386 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:25:52,831 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:25:54,779 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:25:55,016 - INFO -  * Restarting with stat
+2025-05-20 16:25:58,499 - WARNING -  * Debugger is active!
+2025-05-20 16:25:58,521 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:25:59,008 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:26:14,098 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:26:14,441 - INFO -  * Restarting with stat
+2025-05-20 16:26:17,006 - WARNING -  * Debugger is active!
+2025-05-20 16:26:17,025 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:26:17,417 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:26:22,118 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:26:22,340 - INFO -  * Restarting with stat
+2025-05-20 16:26:25,307 - WARNING -  * Debugger is active!
+2025-05-20 16:26:25,339 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:26:25,847 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:26:36,422 - INFO - 127.0.0.1 - - [20/May/2025 16:26:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-20 16:26:37,116 - INFO - 127.0.0.1 - - [20/May/2025 16:26:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-20 16:26:53,610 - INFO - 127.0.0.1 - - [20/May/2025 16:26:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-20 16:27:25,747 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:27:25,880 - INFO -  * Restarting with stat
+2025-05-20 16:28:46,459 - INFO -  * Restarting with stat
+2025-05-20 16:28:48,284 - WARNING -  * Debugger is active!
+2025-05-20 16:28:48,297 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:28:48,547 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:28:48,732 - INFO - 127.0.0.1 - - [20/May/2025 16:28:48] "GET / HTTP/1.1" 200 -
+2025-05-20 16:28:50,640 - INFO - 127.0.0.1 - - [20/May/2025 16:28:50] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:28:54,404 - INFO - 127.0.0.1 - - [20/May/2025 16:28:54] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:31:37,469 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:31:37,794 - INFO -  * Restarting with stat
+2025-05-20 16:31:40,411 - WARNING -  * Debugger is active!
+2025-05-20 16:31:40,427 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:31:40,766 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:31:43,935 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:31:44,099 - INFO -  * Restarting with stat
+2025-05-20 16:31:46,522 - WARNING -  * Debugger is active!
+2025-05-20 16:31:46,539 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:31:46,886 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:31:54,294 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:31:54,551 - INFO -  * Restarting with stat
+2025-05-20 16:31:57,225 - WARNING -  * Debugger is active!
+2025-05-20 16:31:57,245 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:31:57,686 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:31:57,721 - INFO - 127.0.0.1 - - [20/May/2025 16:31:57] "GET / HTTP/1.1" 200 -
+2025-05-20 16:31:58,636 - INFO - 127.0.0.1 - - [20/May/2025 16:31:58] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:32:00,616 - INFO - 127.0.0.1 - - [20/May/2025 16:32:00] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:32:23,358 - WARNING - Failed login attempt for username: Eng.Osama Sadeq
+2025-05-20 16:32:23,361 - INFO - 127.0.0.1 - - [20/May/2025 16:32:23] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:32:23,367 - INFO - 127.0.0.1 - - [20/May/2025 16:32:23] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:32:44,505 - WARNING - Failed login attempt for username: Eng.Osama Sadeq ali
+2025-05-20 16:32:44,509 - INFO - 127.0.0.1 - - [20/May/2025 16:32:44] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:32:44,516 - INFO - 127.0.0.1 - - [20/May/2025 16:32:44] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:32:53,774 - WARNING - Failed login attempt for username: Eng.Osama
+2025-05-20 16:32:53,778 - INFO - 127.0.0.1 - - [20/May/2025 16:32:53] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:32:53,784 - INFO - 127.0.0.1 - - [20/May/2025 16:32:53] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:33:09,860 - WARNING - Failed login attempt for username: Eng.Osama sadeq
+2025-05-20 16:33:09,862 - INFO - 127.0.0.1 - - [20/May/2025 16:33:09] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:33:09,868 - INFO - 127.0.0.1 - - [20/May/2025 16:33:09] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:33:19,378 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 16:33:19,396 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "[35m[1mPOST /user/login HTTP/1.1[0m" 500 -
+2025-05-20 16:33:19,425 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "GET /user/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 16:33:19,436 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "GET /user/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 16:33:19,483 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "GET /user/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 16:33:19,484 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "GET /user/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 16:33:19,503 - INFO - 127.0.0.1 - - [20/May/2025 16:33:19] "GET /user/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 16:33:31,025 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:33:31,157 - INFO -  * Restarting with stat
+2025-05-20 16:33:33,016 - WARNING -  * Debugger is active!
+2025-05-20 16:33:33,031 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:33:33,317 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:33:33,935 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 16:33:33,949 - INFO - 127.0.0.1 - - [20/May/2025 16:33:33] "[35m[1mPOST /user/login HTTP/1.1[0m" 500 -
+2025-05-20 16:33:33,962 - INFO - 127.0.0.1 - - [20/May/2025 16:33:33] "GET /user/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 16:33:33,963 - INFO - 127.0.0.1 - - [20/May/2025 16:33:33] "GET /user/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 16:33:34,000 - INFO - 127.0.0.1 - - [20/May/2025 16:33:34] "GET /user/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 16:33:34,001 - INFO - 127.0.0.1 - - [20/May/2025 16:33:34] "GET /user/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 16:33:34,017 - INFO - 127.0.0.1 - - [20/May/2025 16:33:34] "GET /user/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 16:33:43,874 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:33:43,985 - INFO -  * Restarting with stat
+2025-05-20 16:33:45,726 - WARNING -  * Debugger is active!
+2025-05-20 16:33:45,739 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:33:45,998 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:33:46,617 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 16:33:46,619 - INFO - 127.0.0.1 - - [20/May/2025 16:33:46] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:33:46,632 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:33:46,632 - INFO - Total courses retrieved: 6
+2025-05-20 16:33:46,663 - INFO - 127.0.0.1 - - [20/May/2025 16:33:46] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:33:46,689 - INFO - 127.0.0.1 - - [20/May/2025 16:33:46] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:34:05,861 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:34:05,861 - INFO - Total courses retrieved: 6
+2025-05-20 16:34:05,863 - INFO - 127.0.0.1 - - [20/May/2025 16:34:05] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:34:05,887 - INFO - 127.0.0.1 - - [20/May/2025 16:34:05] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:34:11,507 - INFO - 127.0.0.1 - - [20/May/2025 16:34:11] "GET / HTTP/1.1" 200 -
+2025-05-20 16:34:14,571 - INFO - 127.0.0.1 - - [20/May/2025 16:34:14] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 16:34:14,635 - INFO - 127.0.0.1 - - [20/May/2025 16:34:14] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 16:34:27,072 - INFO - 127.0.0.1 - - [20/May/2025 16:34:27] "GET / HTTP/1.1" 200 -
+2025-05-20 16:34:46,557 - INFO - 127.0.0.1 - - [20/May/2025 16:34:46] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 16:35:07,481 - INFO - 127.0.0.1 - - [20/May/2025 16:35:07] "GET / HTTP/1.1" 200 -
+2025-05-20 16:35:11,104 - INFO - 127.0.0.1 - - [20/May/2025 16:35:11] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:35:15,497 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:35:15,497 - INFO - Total courses retrieved: 6
+2025-05-20 16:35:15,500 - INFO - 127.0.0.1 - - [20/May/2025 16:35:15] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:35:15,533 - INFO - 127.0.0.1 - - [20/May/2025 16:35:15] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:35:18,597 - INFO - 127.0.0.1 - - [20/May/2025 16:35:18] "GET / HTTP/1.1" 200 -
+2025-05-20 16:35:28,341 - INFO - 127.0.0.1 - - [20/May/2025 16:35:28] "GET /user/api HTTP/1.1" 200 -
+2025-05-20 16:35:28,368 - INFO - 127.0.0.1 - - [20/May/2025 16:35:28] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:35:29,804 - INFO - 127.0.0.1 - - [20/May/2025 16:35:29] "GET /user/contantgroup HTTP/1.1" 200 -
+2025-05-20 16:35:29,846 - INFO - 127.0.0.1 - - [20/May/2025 16:35:29] "[33mGET /get_new_messages HTTP/1.1[0m" 404 -
+2025-05-20 16:35:31,849 - INFO - 127.0.0.1 - - [20/May/2025 16:35:31] "[33mGET /get_new_messages HTTP/1.1[0m" 404 -
+2025-05-20 16:35:34,650 - INFO - 127.0.0.1 - - [20/May/2025 16:35:34] "GET /user/Information HTTP/1.1" 200 -
+2025-05-20 16:35:34,679 - INFO - 127.0.0.1 - - [20/May/2025 16:35:34] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:35:37,655 - INFO - 127.0.0.1 - - [20/May/2025 16:35:37] "GET /user/about HTTP/1.1" 200 -
+2025-05-20 16:35:37,683 - INFO - 127.0.0.1 - - [20/May/2025 16:35:37] "GET /static/images/1747503466043.jpg HTTP/1.1" 200 -
+2025-05-20 16:35:37,700 - INFO - 127.0.0.1 - - [20/May/2025 16:35:37] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:35:37,738 - INFO - 127.0.0.1 - - [20/May/2025 16:35:37] "GET /static/images/IMG-20250517-WA0019.jpg HTTP/1.1" 200 -
+2025-05-20 16:36:01,709 - INFO - 127.0.0.1 - - [20/May/2025 16:36:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:36:39,788 - INFO - 127.0.0.1 - - [20/May/2025 16:36:39] "[33mGET /user/mediaG902 HTTP/1.1[0m" 404 -
+2025-05-20 16:36:39,844 - INFO - 127.0.0.1 - - [20/May/2025 16:36:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:01,383 - INFO - 127.0.0.1 - - [20/May/2025 16:37:01] "[33mGET /user/ HTTP/1.1[0m" 404 -
+2025-05-20 16:37:01,413 - INFO - 127.0.0.1 - - [20/May/2025 16:37:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:09,441 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:37:09,441 - INFO - Total courses retrieved: 6
+2025-05-20 16:37:09,444 - INFO - 127.0.0.1 - - [20/May/2025 16:37:09] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:37:09,489 - INFO - 127.0.0.1 - - [20/May/2025 16:37:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:09,675 - INFO - 127.0.0.1 - - [20/May/2025 16:37:09] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:37:13,225 - INFO - 127.0.0.1 - - [20/May/2025 16:37:13] "[33mGET /user/Game@modu93 HTTP/1.1[0m" 404 -
+2025-05-20 16:37:13,273 - INFO - 127.0.0.1 - - [20/May/2025 16:37:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:16,345 - INFO - 127.0.0.1 - - [20/May/2025 16:37:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:16,492 - INFO - 127.0.0.1 - - [20/May/2025 16:37:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:21,128 - INFO - 127.0.0.1 - - [20/May/2025 16:37:21] "[33mGET /user/Game@modu93 HTTP/1.1[0m" 404 -
+2025-05-20 16:37:21,159 - INFO - 127.0.0.1 - - [20/May/2025 16:37:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:41,974 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:37:42,214 - INFO -  * Restarting with stat
+2025-05-20 16:37:54,955 - INFO -  * Restarting with stat
+2025-05-20 16:37:56,661 - WARNING -  * Debugger is active!
+2025-05-20 16:37:56,675 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:37:56,932 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:37:56,986 - INFO - 127.0.0.1 - - [20/May/2025 16:37:56] "[33mGET /user/Game@modu93 HTTP/1.1[0m" 404 -
+2025-05-20 16:37:57,208 - INFO - 127.0.0.1 - - [20/May/2025 16:37:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:37:59,102 - INFO - 127.0.0.1 - - [20/May/2025 16:37:59] "[33mGET /user/Game@modu93 HTTP/1.1[0m" 404 -
+2025-05-20 16:37:59,138 - INFO - 127.0.0.1 - - [20/May/2025 16:37:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:00,590 - INFO - 127.0.0.1 - - [20/May/2025 16:38:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:00,628 - INFO - 127.0.0.1 - - [20/May/2025 16:38:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:04,453 - INFO - 127.0.0.1 - - [20/May/2025 16:38:04] "[33mGET /user/index HTTP/1.1[0m" 404 -
+2025-05-20 16:38:04,475 - INFO - 127.0.0.1 - - [20/May/2025 16:38:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:08,305 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:38:08,305 - INFO - Total courses retrieved: 6
+2025-05-20 16:38:08,333 - INFO - 127.0.0.1 - - [20/May/2025 16:38:08] "GET / HTTP/1.1" 200 -
+2025-05-20 16:38:08,369 - INFO - 127.0.0.1 - - [20/May/2025 16:38:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:08,391 - INFO - 127.0.0.1 - - [20/May/2025 16:38:08] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:38:11,051 - INFO - 127.0.0.1 - - [20/May/2025 16:38:11] "GET /Game%40modu93 HTTP/1.1" 200 -
+2025-05-20 16:38:11,108 - INFO - 127.0.0.1 - - [20/May/2025 16:38:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 16:38:11,171 - INFO - 127.0.0.1 - - [20/May/2025 16:38:11] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:38:29,416 - INFO - 127.0.0.1 - - [20/May/2025 16:38:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 16:39:48,818 - INFO - 127.0.0.1 - - [20/May/2025 16:39:48] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 16:39:48,851 - INFO - 127.0.0.1 - - [20/May/2025 16:39:48] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:39:58,321 - INFO - 127.0.0.1 - - [20/May/2025 16:39:58] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 16:39:58,345 - INFO - 127.0.0.1 - - [20/May/2025 16:39:58] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:40:42,980 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:40:43,169 - INFO -  * Restarting with stat
+2025-05-20 16:40:44,817 - WARNING -  * Debugger is active!
+2025-05-20 16:40:44,829 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:40:45,086 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:40:45,296 - INFO - 127.0.0.1 - - [20/May/2025 16:40:45] "GET / HTTP/1.1" 200 -
+2025-05-20 16:40:47,651 - INFO - 127.0.0.1 - - [20/May/2025 16:40:47] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:40:51,693 - INFO - 127.0.0.1 - - [20/May/2025 16:40:51] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:43:33,291 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:43:33,429 - INFO -  * Restarting with stat
+2025-05-20 16:43:35,310 - WARNING -  * Debugger is active!
+2025-05-20 16:43:35,325 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:43:35,639 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:43:38,158 - INFO - 127.0.0.1 - - [20/May/2025 16:43:38] "GET / HTTP/1.1" 200 -
+2025-05-20 16:43:39,962 - INFO - 127.0.0.1 - - [20/May/2025 16:43:39] "GET / HTTP/1.1" 200 -
+2025-05-20 16:43:41,164 - INFO - 127.0.0.1 - - [20/May/2025 16:43:41] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:43:55,134 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:43:58,417 - INFO -  * Restarting with stat
+2025-05-20 16:44:34,879 - WARNING -  * Debugger is active!
+2025-05-20 16:44:34,927 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:44:36,224 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:49:43,979 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:49:46,893 - INFO -  * Restarting with stat
+2025-05-20 16:50:00,970 - WARNING -  * Debugger is active!
+2025-05-20 16:50:00,984 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:50:01,244 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:50:09,994 - INFO - 127.0.0.1 - - [20/May/2025 16:50:09] "GET / HTTP/1.1" 200 -
+2025-05-20 16:50:11,886 - INFO - 127.0.0.1 - - [20/May/2025 16:50:11] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:52:10,043 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:52:13,010 - INFO -  * Restarting with stat
+2025-05-20 16:52:21,220 - WARNING -  * Debugger is active!
+2025-05-20 16:52:21,234 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:52:21,521 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:52:21,592 - INFO - 127.0.0.1 - - [20/May/2025 16:52:21] "GET / HTTP/1.1" 200 -
+2025-05-20 16:52:29,662 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:52:29,998 - INFO -  * Restarting with stat
+2025-05-20 16:52:32,680 - WARNING -  * Debugger is active!
+2025-05-20 16:52:32,698 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:52:33,095 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:52:33,342 - INFO - 127.0.0.1 - - [20/May/2025 16:52:33] "GET / HTTP/1.1" 200 -
+2025-05-20 16:52:34,615 - INFO - 127.0.0.1 - - [20/May/2025 16:52:34] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:52:42,630 - INFO - 127.0.0.1 - - [20/May/2025 16:52:42] "GET / HTTP/1.1" 200 -
+2025-05-20 16:52:44,977 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:52:44,977 - INFO - Total courses retrieved: 6
+2025-05-20 16:52:45,006 - INFO - 127.0.0.1 - - [20/May/2025 16:52:45] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:52:45,044 - INFO - 127.0.0.1 - - [20/May/2025 16:52:45] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:52:48,627 - INFO - 127.0.0.1 - - [20/May/2025 16:52:48] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 16:52:57,256 - INFO - 127.0.0.1 - - [20/May/2025 16:52:57] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:53:00,175 - INFO - 127.0.0.1 - - [20/May/2025 16:53:00] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:53:17,479 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 16:53:17,484 - INFO - 127.0.0.1 - - [20/May/2025 16:53:17] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:53:17,493 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:53:17,493 - INFO - Total courses retrieved: 6
+2025-05-20 16:53:17,494 - INFO - 127.0.0.1 - - [20/May/2025 16:53:17] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:53:17,536 - INFO - 127.0.0.1 - - [20/May/2025 16:53:17] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:53:23,417 - INFO - 127.0.0.1 - - [20/May/2025 16:53:23] "GET / HTTP/1.1" 200 -
+2025-05-20 16:53:24,614 - INFO - 127.0.0.1 - - [20/May/2025 16:53:24] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:53:48,658 - INFO - 127.0.0.1 - - [20/May/2025 16:53:48] "GET / HTTP/1.1" 200 -
+2025-05-20 16:53:50,242 - INFO - 127.0.0.1 - - [20/May/2025 16:53:50] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:54:07,203 - INFO - 127.0.0.1 - - [20/May/2025 16:54:07] "GET / HTTP/1.1" 200 -
+2025-05-20 16:54:09,025 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:54:09,025 - INFO - Total courses retrieved: 6
+2025-05-20 16:54:09,031 - INFO - 127.0.0.1 - - [20/May/2025 16:54:09] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:54:09,068 - INFO - 127.0.0.1 - - [20/May/2025 16:54:09] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:54:13,425 - INFO - User Eng.Ahmed ali logged out successfully.
+2025-05-20 16:54:13,431 - INFO - 127.0.0.1 - - [20/May/2025 16:54:13] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2025-05-20 16:54:13,440 - INFO - 127.0.0.1 - - [20/May/2025 16:54:13] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:54:18,818 - INFO - 127.0.0.1 - - [20/May/2025 16:54:18] "GET / HTTP/1.1" 200 -
+2025-05-20 16:54:21,057 - INFO - 127.0.0.1 - - [20/May/2025 16:54:21] "[31m[1mGET /user/index HTTP/1.1[0m" 401 -
+2025-05-20 16:54:37,250 - INFO - 127.0.0.1 - - [20/May/2025 16:54:37] "GET / HTTP/1.1" 200 -
+2025-05-20 16:54:38,838 - INFO - 127.0.0.1 - - [20/May/2025 16:54:38] "[33mGET /user/log HTTP/1.1[0m" 404 -
+2025-05-20 16:54:45,319 - INFO - 127.0.0.1 - - [20/May/2025 16:54:45] "GET / HTTP/1.1" 200 -
+2025-05-20 16:54:46,427 - INFO - 127.0.0.1 - - [20/May/2025 16:54:46] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:54:59,347 - WARNING - Failed login attempt for username: Eng.Osama Sadeq
+2025-05-20 16:54:59,352 - INFO - 127.0.0.1 - - [20/May/2025 16:54:59] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:54:59,361 - INFO - 127.0.0.1 - - [20/May/2025 16:54:59] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:55:15,395 - WARNING - Failed login attempt for username: Eng.Osama Sadeq
+2025-05-20 16:55:15,397 - INFO - 127.0.0.1 - - [20/May/2025 16:55:15] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:55:15,402 - INFO - 127.0.0.1 - - [20/May/2025 16:55:15] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:55:28,466 - WARNING - Failed login attempt for username: Eng.Osama Sadeq ali
+2025-05-20 16:55:28,467 - INFO - 127.0.0.1 - - [20/May/2025 16:55:28] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:55:28,474 - INFO - 127.0.0.1 - - [20/May/2025 16:55:28] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:55:33,190 - INFO - 127.0.0.1 - - [20/May/2025 16:55:33] "GET / HTTP/1.1" 200 -
+2025-05-20 16:55:36,439 - INFO - 127.0.0.1 - - [20/May/2025 16:55:36] "[31m[1mGET /admin/index HTTP/1.1[0m" 401 -
+2025-05-20 16:55:47,291 - INFO - 127.0.0.1 - - [20/May/2025 16:55:47] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:56:09,215 - INFO - New user registered: Eng.Osama Sadeq
+2025-05-20 16:56:09,218 - INFO - 127.0.0.1 - - [20/May/2025 16:56:09] "[32mPOST /user/register HTTP/1.1[0m" 302 -
+2025-05-20 16:56:09,224 - INFO - 127.0.0.1 - - [20/May/2025 16:56:09] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:56:21,413 - INFO - User Eng.Osama Sadeq logged in successfully.
+2025-05-20 16:56:21,417 - INFO - 127.0.0.1 - - [20/May/2025 16:56:21] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:56:21,426 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:56:21,426 - INFO - Total courses retrieved: 6
+2025-05-20 16:56:21,428 - INFO - 127.0.0.1 - - [20/May/2025 16:56:21] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:56:21,469 - INFO - 127.0.0.1 - - [20/May/2025 16:56:21] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:56:28,306 - INFO - 127.0.0.1 - - [20/May/2025 16:56:28] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 16:56:28,412 - INFO - 127.0.0.1 - - [20/May/2025 16:56:28] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 16:56:42,039 - INFO - User Osama Sadeq deleted successfully.
+2025-05-20 16:56:42,044 - INFO - 127.0.0.1 - - [20/May/2025 16:56:42] "[32mPOST /admin/users/1 HTTP/1.1[0m" 302 -
+2025-05-20 16:56:42,055 - INFO - 127.0.0.1 - - [20/May/2025 16:56:42] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 16:56:47,053 - INFO - User Eng.Osama Sadeq set as admin successfully.
+2025-05-20 16:56:47,054 - INFO - 127.0.0.1 - - [20/May/2025 16:56:47] "[32mPOST /admin/users/4/set_admin HTTP/1.1[0m" 302 -
+2025-05-20 16:56:47,087 - INFO - 127.0.0.1 - - [20/May/2025 16:56:47] "[32mGET /admin/users HTTP/1.1[0m" 302 -
+2025-05-20 16:56:47,093 - INFO - Admin Eng.Osama Sadeq accessed home page directly
+2025-05-20 16:56:47,094 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:56:47,094 - INFO - Total courses retrieved: 6
+2025-05-20 16:56:47,098 - INFO - 127.0.0.1 - - [20/May/2025 16:56:47] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:56:47,160 - INFO - 127.0.0.1 - - [20/May/2025 16:56:47] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:56:55,160 - INFO - 127.0.0.1 - - [20/May/2025 16:56:55] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 16:56:55,200 - INFO - 127.0.0.1 - - [20/May/2025 16:56:55] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 16:57:09,069 - INFO - 127.0.0.1 - - [20/May/2025 16:57:09] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 16:57:18,177 - INFO - Admin Eng.Osama Sadeq accessed home page directly
+2025-05-20 16:57:18,182 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:57:18,182 - INFO - Total courses retrieved: 6
+2025-05-20 16:57:18,185 - INFO - 127.0.0.1 - - [20/May/2025 16:57:18] "GET /user/index HTTP/1.1" 200 -
+2025-05-20 16:57:18,205 - INFO - 127.0.0.1 - - [20/May/2025 16:57:18] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:57:20,140 - INFO - 127.0.0.1 - - [20/May/2025 16:57:20] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 16:57:25,537 - INFO - 127.0.0.1 - - [20/May/2025 16:57:25] "[33mGET /user/flutterG902 HTTP/1.1[0m" 404 -
+2025-05-20 16:57:45,131 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:57:45,252 - INFO -  * Restarting with stat
+2025-05-20 16:57:47,466 - WARNING -  * Debugger is active!
+2025-05-20 16:57:47,479 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:57:47,741 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:57:47,916 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:57:48,021 - INFO -  * Restarting with stat
+2025-05-20 16:57:49,887 - WARNING -  * Debugger is active!
+2025-05-20 16:57:49,901 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:57:50,191 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:57:51,683 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 16:57:51,979 - INFO -  * Restarting with stat
+2025-05-20 16:58:03,434 - INFO -  * Restarting with stat
+2025-05-20 16:58:05,499 - WARNING -  * Debugger is active!
+2025-05-20 16:58:05,513 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:58:05,772 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:58:05,991 - INFO - 127.0.0.1 - - [20/May/2025 16:58:05] "[33mGET /user/index HTTP/1.1[0m" 404 -
+2025-05-20 16:58:08,452 - INFO - Admin Eng.Osama Sadeq accessed home page directly
+2025-05-20 16:58:08,459 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:58:08,459 - INFO - Total courses retrieved: 6
+2025-05-20 16:58:08,488 - INFO - 127.0.0.1 - - [20/May/2025 16:58:08] "GET / HTTP/1.1" 200 -
+2025-05-20 16:58:08,533 - INFO - 127.0.0.1 - - [20/May/2025 16:58:08] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:58:11,271 - INFO - 127.0.0.1 - - [20/May/2025 16:58:11] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 16:58:11,305 - INFO - 127.0.0.1 - - [20/May/2025 16:58:11] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:58:16,945 - INFO - 127.0.0.1 - - [20/May/2025 16:58:16] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 16:58:16,972 - INFO - 127.0.0.1 - - [20/May/2025 16:58:16] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:58:22,934 - INFO - 127.0.0.1 - - [20/May/2025 16:58:22] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 16:58:22,956 - INFO - 127.0.0.1 - - [20/May/2025 16:58:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:58:32,476 - INFO - Admin Eng.Osama Sadeq accessed home page directly
+2025-05-20 16:58:32,479 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:58:32,479 - INFO - Total courses retrieved: 6
+2025-05-20 16:58:32,481 - INFO - 127.0.0.1 - - [20/May/2025 16:58:32] "GET / HTTP/1.1" 200 -
+2025-05-20 16:58:32,502 - INFO - 127.0.0.1 - - [20/May/2025 16:58:32] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -

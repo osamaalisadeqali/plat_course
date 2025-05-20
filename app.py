@@ -71,6 +71,12 @@ def check_admin_token():
         session.pop('token_expiration', None)
         return redirect(url_for('home'))
 
+
+
+@app.route('/course')
+def course():
+    return render_template('course.html')
+
 @app.route('/')
 @login_required
 def home():
@@ -224,12 +230,6 @@ def delete_message(message_id):
 @login_required
 def admin():
     return render_template('admin/index.html')
-
-
-@app.route('/course')
-@login_required
-def course():
-    return render_template('course.html')
 
 
 @app.route('/user/login', methods=['GET', 'POST'])
