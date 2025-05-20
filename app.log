@@ -29782,3 +29782,53 @@
 2025-05-20 16:58:32,479 - INFO - Total courses retrieved: 6
 2025-05-20 16:58:32,481 - INFO - 127.0.0.1 - - [20/May/2025 16:58:32] "GET / HTTP/1.1" 200 -
 2025-05-20 16:58:32,502 - INFO - 127.0.0.1 - - [20/May/2025 16:58:32] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 18:00:12,445 - INFO - User admin logged in successfully.
+2025-05-20 18:00:13,383 - INFO - New user registered: acceptuser
+2025-05-20 18:00:13,560 - INFO - User acceptuser logged in successfully.
+2025-05-20 18:00:13,565 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:13,565 - INFO - Total courses retrieved: 1
+2025-05-20 18:00:13,819 - INFO - User admin logged in successfully.
+2025-05-20 18:00:14,387 - INFO - User admin logged in successfully.
+2025-05-20 18:00:15,012 - INFO - User admin logged in successfully.
+2025-05-20 18:00:15,955 - INFO - User testuser logged in successfully.
+2025-05-20 18:00:15,960 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:15,960 - INFO - Total courses retrieved: 1
+2025-05-20 18:00:16,524 - INFO - User testuser logged in successfully.
+2025-05-20 18:00:16,528 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:16,529 - INFO - Total courses retrieved: 1
+2025-05-20 18:00:17,433 - INFO - New user registered: regressionuser
+2025-05-20 18:00:17,608 - INFO - User testuser logged in successfully.
+2025-05-20 18:00:17,612 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:17,612 - INFO - Total courses retrieved: 1
+2025-05-20 18:00:18,306 - WARNING - Failed login attempt for username: ' OR '1'='1
+2025-05-20 18:00:18,480 - INFO - New user registered: <script>alert(1)</script>
+2025-05-20 18:00:19,348 - INFO - User testuser logged in successfully.
+2025-05-20 18:00:19,352 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:19,352 - INFO - Total courses retrieved: 1
+2025-05-20 18:00:19,864 - INFO - New user registered: newuser
+2025-05-20 18:00:20,036 - INFO - User newuser logged in successfully.
+2025-05-20 18:00:20,040 - INFO - Total featured courses retrieved: 0
+2025-05-20 18:00:20,040 - INFO - Total courses retrieved: 1
+2025-05-20 18:01:31,542 - INFO -  * Restarting with stat
+2025-05-20 18:01:33,343 - WARNING -  * Debugger is active!
+2025-05-20 18:01:33,361 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 18:01:33,658 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 18:01:36,678 - INFO - Admin Eng.Osama Sadeq accessed home page directly
+2025-05-20 18:01:36,688 - INFO - Total featured courses retrieved: 2
+2025-05-20 18:01:36,689 - INFO - Total courses retrieved: 6
+2025-05-20 18:01:36,726 - INFO - 127.0.0.1 - - [20/May/2025 18:01:36] "GET / HTTP/1.1" 200 -
+2025-05-20 18:01:36,764 - INFO - 127.0.0.1 - - [20/May/2025 18:01:36] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 18:01:41,207 - INFO - 127.0.0.1 - - [20/May/2025 18:01:41] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 18:01:44,939 - INFO - User Eng.Osama Sadeq logged out successfully.
+2025-05-20 18:01:44,941 - INFO - 127.0.0.1 - - [20/May/2025 18:01:44] "[32mGET /user/logout HTTP/1.1[0m" 302 -
+2025-05-20 18:01:44,953 - INFO - 127.0.0.1 - - [20/May/2025 18:01:44] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 18:01:57,751 - WARNING - Failed login attempt for username: username: ' OR '1'='
+2025-05-20 18:01:57,753 - INFO - 127.0.0.1 - - [20/May/2025 18:01:57] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 18:01:57,761 - INFO - 127.0.0.1 - - [20/May/2025 18:01:57] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 18:02:22,783 - WARNING - Failed login attempt for username: username: ' OR '1'='1
+2025-05-20 18:02:22,785 - INFO - 127.0.0.1 - - [20/May/2025 18:02:22] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 18:02:22,790 - INFO - 127.0.0.1 - - [20/May/2025 18:02:22] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 18:02:37,946 - WARNING - Failed login attempt for username: username: ' OR '1'='
+2025-05-20 18:02:37,949 - INFO - 127.0.0.1 - - [20/May/2025 18:02:37] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 18:02:37,955 - INFO - 127.0.0.1 - - [20/May/2025 18:02:37] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 18:02:40,945 - INFO - 127.0.0.1 - - [20/May/2025 18:02:40] "GET /user/login HTTP/1.1" 200 -
