@@ -1094,7 +1094,7 @@ function openWhatsApp() {
     }
     
     async discoverPlaylist() {
-        this.showLoadingMessage();
+     
         
         const courseTitle = document.querySelector('.course-title').textContent;
         const searchQuery = `${courseTitle} قائمة تشغيل playlist`;
@@ -1313,17 +1313,7 @@ function openWhatsApp() {
             document.exitFullscreen();
         }
     }
-    
-    showLoadingMessage() {
-        this.elements.videosContainer.innerHTML = `
-            <div class="loading-message">
-                <div class="spinner">
-                    <i class="fas fa-spinner fa-spin"></i>
-                </div>
-                <p>جاري تحميل فيديوهات الدورة...</p>
-            </div>
-        `;
-    }
+ 
     
     showLoadingIndicator() {
         this.elements.loadingIndicator.style.display = 'block';

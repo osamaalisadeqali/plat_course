@@ -28614,3 +28614,831 @@
 2025-05-20 00:25:23,336 - INFO - 127.0.0.1 - - [20/May/2025 00:25:23] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
 2025-05-20 00:25:35,039 - INFO - 127.0.0.1 - - [20/May/2025 00:25:35] "GET /smart$$modul HTTP/1.1" 200 -
 2025-05-20 00:25:35,064 - INFO - 127.0.0.1 - - [20/May/2025 00:25:35] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:14:51,666 - INFO -  * Restarting with stat
+2025-05-20 11:14:53,460 - WARNING -  * Debugger is active!
+2025-05-20 11:14:53,473 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:14:53,911 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:15:04,264 - INFO - 127.0.0.1 - - [20/May/2025 11:15:04] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-05-20 11:15:08,984 - INFO - 127.0.0.1 - - [20/May/2025 11:15:08] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 11:15:09,108 - INFO - 127.0.0.1 - - [20/May/2025 11:15:09] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 11:15:27,896 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:15:28,054 - INFO -  * Restarting with stat
+2025-05-20 11:15:29,694 - WARNING -  * Debugger is active!
+2025-05-20 11:15:29,709 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:15:29,983 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:15:30,463 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-20 11:15:30,512 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 11:15:30,532 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 11:15:30,599 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 11:15:30,601 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:15:30,614 - INFO - 127.0.0.1 - - [20/May/2025 11:15:30] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:15:50,724 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:15:50,850 - INFO -  * Restarting with stat
+2025-05-20 11:15:52,632 - WARNING -  * Debugger is active!
+2025-05-20 11:15:52,646 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:15:52,930 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:15:53,199 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:15:53,429 - INFO -  * Restarting with stat
+2025-05-20 11:15:55,180 - WARNING -  * Debugger is active!
+2025-05-20 11:15:55,192 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:15:55,442 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:16:36,728 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:16:36,840 - INFO -  * Restarting with stat
+2025-05-20 11:16:38,747 - WARNING -  * Debugger is active!
+2025-05-20 11:16:38,763 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:16:39,074 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:16:45,676 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:16:45,786 - INFO -  * Restarting with stat
+2025-05-20 11:16:47,403 - WARNING -  * Debugger is active!
+2025-05-20 11:16:47,419 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:16:47,732 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:16:49,159 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:16:49,264 - INFO -  * Restarting with stat
+2025-05-20 11:16:51,020 - WARNING -  * Debugger is active!
+2025-05-20 11:16:51,034 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:16:51,319 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:16:51,389 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:16:51,389 - INFO - Total courses retrieved: 4
+2025-05-20 11:16:51,400 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-20 11:16:51,424 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 11:16:51,607 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 11:16:51,625 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:16:51,627 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 11:16:51,642 - INFO - 127.0.0.1 - - [20/May/2025 11:16:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:16:52,352 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:16:52,352 - INFO - Total courses retrieved: 4
+2025-05-20 11:16:52,363 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-20 11:16:52,379 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 11:16:52,380 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 11:16:52,404 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 11:16:52,405 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:16:52,434 - INFO - 127.0.0.1 - - [20/May/2025 11:16:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 11:16:55,673 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 11:16:55,836 - INFO -  * Restarting with stat
+2025-05-20 11:16:57,657 - WARNING -  * Debugger is active!
+2025-05-20 11:16:57,672 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 11:16:57,949 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 11:17:02,685 - INFO - 127.0.0.1 - - [20/May/2025 11:17:02] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 11:17:03,402 - INFO - 127.0.0.1 - - [20/May/2025 11:17:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:17:21,631 - INFO - User Osama Sadeq logged in successfully.
+2025-05-20 11:17:21,633 - INFO - 127.0.0.1 - - [20/May/2025 11:17:21] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 11:17:21,648 - INFO - 127.0.0.1 - - [20/May/2025 11:17:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 11:17:21,655 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:17:21,663 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:17:21,663 - INFO - Total courses retrieved: 4
+2025-05-20 11:17:21,703 - INFO - 127.0.0.1 - - [20/May/2025 11:17:21] "GET / HTTP/1.1" 200 -
+2025-05-20 11:17:21,751 - INFO - 127.0.0.1 - - [20/May/2025 11:17:21] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 11:17:27,333 - INFO - 127.0.0.1 - - [20/May/2025 11:17:27] "GET /fluttera$hjd HTTP/1.1" 200 -
+2025-05-20 11:17:27,366 - INFO - 127.0.0.1 - - [20/May/2025 11:17:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:18:40,111 - INFO - 127.0.0.1 - - [20/May/2025 11:18:40] "GET /fluttera$hjd HTTP/1.1" 200 -
+2025-05-20 11:18:40,136 - INFO - 127.0.0.1 - - [20/May/2025 11:18:40] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:18:54,703 - INFO - 127.0.0.1 - - [20/May/2025 11:18:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:20:28,104 - INFO - 127.0.0.1 - - [20/May/2025 11:20:28] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:20:28,136 - INFO - 127.0.0.1 - - [20/May/2025 11:20:28] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:21:26,278 - INFO - 127.0.0.1 - - [20/May/2025 11:21:26] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:21:26,298 - INFO - 127.0.0.1 - - [20/May/2025 11:21:26] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:21:35,119 - INFO - 127.0.0.1 - - [20/May/2025 11:21:35] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:21:35,143 - INFO - 127.0.0.1 - - [20/May/2025 11:21:35] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:21:58,381 - INFO - 127.0.0.1 - - [20/May/2025 11:21:58] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:21:58,401 - INFO - 127.0.0.1 - - [20/May/2025 11:21:58] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:22:21,711 - INFO - 127.0.0.1 - - [20/May/2025 11:22:21] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:22:21,731 - INFO - 127.0.0.1 - - [20/May/2025 11:22:21] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:22:43,518 - INFO - 127.0.0.1 - - [20/May/2025 11:22:43] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 11:22:43,537 - INFO - 127.0.0.1 - - [20/May/2025 11:22:43] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:23:03,646 - INFO - 127.0.0.1 - - [20/May/2025 11:23:03] "GET /fluttera$hjd HTTP/1.1" 200 -
+2025-05-20 11:23:03,669 - INFO - 127.0.0.1 - - [20/May/2025 11:23:03] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:23:16,156 - INFO - 127.0.0.1 - - [20/May/2025 11:23:16] "GET /mediaGOOO HTTP/1.1" 200 -
+2025-05-20 11:23:16,196 - INFO - 127.0.0.1 - - [20/May/2025 11:23:16] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:23:22,481 - INFO - 127.0.0.1 - - [20/May/2025 11:23:22] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 11:23:22,507 - INFO - 127.0.0.1 - - [20/May/2025 11:23:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:24:07,264 - INFO - 127.0.0.1 - - [20/May/2025 11:24:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:24:58,715 - INFO - 127.0.0.1 - - [20/May/2025 11:24:58] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 11:24:58,765 - INFO - 127.0.0.1 - - [20/May/2025 11:24:58] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 11:25:01,683 - INFO - 127.0.0.1 - - [20/May/2025 11:25:01] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:25:03,496 - INFO - 127.0.0.1 - - [20/May/2025 11:25:03] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:27:03,163 - INFO - New course added: ﬂÊ—” ’‰«⁄… «·«·⁄«» with price: 
+2025-05-20 11:27:03,168 - INFO - 127.0.0.1 - - [20/May/2025 11:27:03] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:27:03,186 - INFO - 127.0.0.1 - - [20/May/2025 11:27:03] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:27:07,104 - INFO - 127.0.0.1 - - [20/May/2025 11:27:07] "[32mPOST /admin/toggle_featured/5 HTTP/1.1[0m" 302 -
+2025-05-20 11:27:07,121 - INFO - 127.0.0.1 - - [20/May/2025 11:27:07] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:27:13,589 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:27:13,595 - INFO - Total featured courses retrieved: 3
+2025-05-20 11:27:13,596 - INFO - Total courses retrieved: 5
+2025-05-20 11:27:13,599 - INFO - 127.0.0.1 - - [20/May/2025 11:27:13] "GET / HTTP/1.1" 200 -
+2025-05-20 11:27:13,624 - INFO - 127.0.0.1 - - [20/May/2025 11:27:13] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:27:22,911 - INFO - 127.0.0.1 - - [20/May/2025 11:27:22] "GET /Game@modu98 HTTP/1.1" 200 -
+2025-05-20 11:27:22,937 - INFO - 127.0.0.1 - - [20/May/2025 11:27:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:27:42,550 - INFO - 127.0.0.1 - - [20/May/2025 11:27:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:28:05,583 - INFO - 127.0.0.1 - - [20/May/2025 11:28:05] "GET /Game@modu98 HTTP/1.1" 200 -
+2025-05-20 11:28:05,612 - INFO - 127.0.0.1 - - [20/May/2025 11:28:05] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:28:39,328 - INFO - 127.0.0.1 - - [20/May/2025 11:28:39] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:29:10,801 - INFO - New course added: ﬂÊ—” ’‰«⁄… «·«·⁄«» Unity with price: 
+2025-05-20 11:29:10,805 - INFO - 127.0.0.1 - - [20/May/2025 11:29:10] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:29:10,823 - INFO - 127.0.0.1 - - [20/May/2025 11:29:10] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:29:15,906 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:29:15,913 - INFO - Total featured courses retrieved: 3
+2025-05-20 11:29:15,914 - INFO - Total courses retrieved: 6
+2025-05-20 11:29:15,916 - INFO - 127.0.0.1 - - [20/May/2025 11:29:15] "GET / HTTP/1.1" 200 -
+2025-05-20 11:29:15,937 - INFO - 127.0.0.1 - - [20/May/2025 11:29:15] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:29:18,238 - INFO - 127.0.0.1 - - [20/May/2025 11:29:18] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:29:18,270 - INFO - 127.0.0.1 - - [20/May/2025 11:29:18] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:30:42,167 - INFO - 127.0.0.1 - - [20/May/2025 11:30:42] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:31:25,505 - INFO - New course added: ﬂÊ—” ’‰«⁄… «·√·⁄«» »«” Œœ«„ ”ﬂ— ‘ with price: 
+2025-05-20 11:31:25,510 - INFO - 127.0.0.1 - - [20/May/2025 11:31:25] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:31:25,527 - INFO - 127.0.0.1 - - [20/May/2025 11:31:25] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:31:38,318 - INFO - Course ﬂÊ—” ’‰«⁄… «·«·⁄«» deleted successfully.
+2025-05-20 11:31:38,321 - INFO - 127.0.0.1 - - [20/May/2025 11:31:38] "[32mPOST /admin/admin_courses/5 HTTP/1.1[0m" 302 -
+2025-05-20 11:31:38,358 - INFO - 127.0.0.1 - - [20/May/2025 11:31:38] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:31:43,143 - INFO - 127.0.0.1 - - [20/May/2025 11:31:43] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:31:58,286 - INFO - New course added: ﬂÊ—” ’‰«⁄… «·√·⁄«» »«” Œœ«„ ”ﬂ— ‘ with price: 
+2025-05-20 11:31:58,290 - INFO - 127.0.0.1 - - [20/May/2025 11:31:58] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:31:58,307 - INFO - 127.0.0.1 - - [20/May/2025 11:31:58] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:32:04,662 - INFO - Course ﬂÊ—” ’‰«⁄… «·√·⁄«» »«” Œœ«„ ”ﬂ— ‘ deleted successfully.
+2025-05-20 11:32:04,670 - INFO - 127.0.0.1 - - [20/May/2025 11:32:04] "[32mPOST /admin/admin_courses/7 HTTP/1.1[0m" 302 -
+2025-05-20 11:32:04,693 - INFO - 127.0.0.1 - - [20/May/2025 11:32:04] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:32:09,948 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:32:09,952 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:32:09,953 - INFO - Total courses retrieved: 6
+2025-05-20 11:32:09,956 - INFO - 127.0.0.1 - - [20/May/2025 11:32:09] "GET / HTTP/1.1" 200 -
+2025-05-20 11:32:09,979 - INFO - 127.0.0.1 - - [20/May/2025 11:32:09] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:32:11,474 - INFO - 127.0.0.1 - - [20/May/2025 11:32:11] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:32:11,511 - INFO - 127.0.0.1 - - [20/May/2025 11:32:11] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:32:37,767 - INFO - 127.0.0.1 - - [20/May/2025 11:32:37] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:32:37,785 - INFO - 127.0.0.1 - - [20/May/2025 11:32:37] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:32:47,496 - INFO - 127.0.0.1 - - [20/May/2025 11:32:47] "GET /smart$$modul HTTP/1.1" 200 -
+2025-05-20 11:32:47,522 - INFO - 127.0.0.1 - - [20/May/2025 11:32:47] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:33:06,335 - INFO - 127.0.0.1 - - [20/May/2025 11:33:06] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:34:59,857 - INFO - New course added: «· ‰ﬁÌ» ⁄‰ «·»Ì«‰«  –ﬂ«¡ «’ÿ‰«⁄Ì with price: 
+2025-05-20 11:34:59,859 - INFO - 127.0.0.1 - - [20/May/2025 11:34:59] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:34:59,878 - INFO - 127.0.0.1 - - [20/May/2025 11:34:59] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:35:07,576 - INFO - Course «· ‰ﬁÌ» ⁄‰ «·»Ì«‰«  deleted successfully.
+2025-05-20 11:35:07,578 - INFO - 127.0.0.1 - - [20/May/2025 11:35:07] "[32mPOST /admin/admin_courses/2 HTTP/1.1[0m" 302 -
+2025-05-20 11:35:07,623 - INFO - 127.0.0.1 - - [20/May/2025 11:35:07] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:35:11,774 - INFO - 127.0.0.1 - - [20/May/2025 11:35:11] "[33mGET /smart$$modul HTTP/1.1[0m" 404 -
+2025-05-20 11:35:14,387 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:35:14,390 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:35:14,390 - INFO - Total courses retrieved: 6
+2025-05-20 11:35:14,393 - INFO - 127.0.0.1 - - [20/May/2025 11:35:14] "GET / HTTP/1.1" 200 -
+2025-05-20 11:35:14,416 - INFO - 127.0.0.1 - - [20/May/2025 11:35:14] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:35:23,506 - INFO - 127.0.0.1 - - [20/May/2025 11:35:23] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:35:23,536 - INFO - 127.0.0.1 - - [20/May/2025 11:35:23] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:35:54,825 - INFO - 127.0.0.1 - - [20/May/2025 11:35:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:36:12,557 - INFO - 127.0.0.1 - - [20/May/2025 11:36:12] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:36:12,589 - INFO - 127.0.0.1 - - [20/May/2025 11:36:12] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:36:27,845 - INFO - 127.0.0.1 - - [20/May/2025 11:36:27] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:36:27,868 - INFO - 127.0.0.1 - - [20/May/2025 11:36:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:36:31,108 - INFO - 127.0.0.1 - - [20/May/2025 11:36:31] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:36:31,131 - INFO - 127.0.0.1 - - [20/May/2025 11:36:31] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:38:23,026 - INFO - 127.0.0.1 - - [20/May/2025 11:38:23] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:38:23,048 - INFO - 127.0.0.1 - - [20/May/2025 11:38:23] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:38:28,160 - INFO - 127.0.0.1 - - [20/May/2025 11:38:28] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:38:28,180 - INFO - 127.0.0.1 - - [20/May/2025 11:38:28] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:38:38,410 - INFO - 127.0.0.1 - - [20/May/2025 11:38:38] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:38:38,428 - INFO - 127.0.0.1 - - [20/May/2025 11:38:38] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:39:20,769 - INFO - 127.0.0.1 - - [20/May/2025 11:39:20] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:39:20,803 - INFO - 127.0.0.1 - - [20/May/2025 11:39:20] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:39:40,928 - INFO - 127.0.0.1 - - [20/May/2025 11:39:40] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:39:40,949 - INFO - 127.0.0.1 - - [20/May/2025 11:39:40] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:39:55,860 - INFO - 127.0.0.1 - - [20/May/2025 11:39:55] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:39:55,892 - INFO - 127.0.0.1 - - [20/May/2025 11:39:55] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:40:05,517 - INFO - 127.0.0.1 - - [20/May/2025 11:40:05] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:40:05,542 - INFO - 127.0.0.1 - - [20/May/2025 11:40:05] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:40:21,295 - INFO - 127.0.0.1 - - [20/May/2025 11:40:21] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:40:21,326 - INFO - 127.0.0.1 - - [20/May/2025 11:40:21] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:40:59,211 - INFO - Course «· ‰ﬁÌ» ⁄‰ «·»Ì«‰«  –ﬂ«¡ «’ÿ‰«⁄Ì deleted successfully.
+2025-05-20 11:40:59,213 - INFO - 127.0.0.1 - - [20/May/2025 11:40:59] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:40:59,252 - INFO - 127.0.0.1 - - [20/May/2025 11:40:59] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:41:03,058 - INFO - 127.0.0.1 - - [20/May/2025 11:41:03] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:41:17,859 - INFO - New course added: Data mining with price: 
+2025-05-20 11:41:17,860 - INFO - 127.0.0.1 - - [20/May/2025 11:41:17] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:41:17,878 - INFO - 127.0.0.1 - - [20/May/2025 11:41:17] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:41:22,553 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:41:22,558 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:41:22,558 - INFO - Total courses retrieved: 6
+2025-05-20 11:41:22,561 - INFO - 127.0.0.1 - - [20/May/2025 11:41:22] "GET / HTTP/1.1" 200 -
+2025-05-20 11:41:22,584 - INFO - 127.0.0.1 - - [20/May/2025 11:41:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:26,985 - INFO - 127.0.0.1 - - [20/May/2025 11:41:26] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:27,012 - INFO - 127.0.0.1 - - [20/May/2025 11:41:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:29,537 - INFO - 127.0.0.1 - - [20/May/2025 11:41:29] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:29,560 - INFO - 127.0.0.1 - - [20/May/2025 11:41:29] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:31,270 - INFO - 127.0.0.1 - - [20/May/2025 11:41:31] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:31,295 - INFO - 127.0.0.1 - - [20/May/2025 11:41:31] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:32,289 - INFO - 127.0.0.1 - - [20/May/2025 11:41:32] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:32,313 - INFO - 127.0.0.1 - - [20/May/2025 11:41:32] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:33,188 - INFO - 127.0.0.1 - - [20/May/2025 11:41:33] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:33,207 - INFO - 127.0.0.1 - - [20/May/2025 11:41:33] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:35,604 - INFO - 127.0.0.1 - - [20/May/2025 11:41:35] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:35,624 - INFO - 127.0.0.1 - - [20/May/2025 11:41:35] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:45,327 - INFO - 127.0.0.1 - - [20/May/2025 11:41:45] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:45,353 - INFO - 127.0.0.1 - - [20/May/2025 11:41:45] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:52,928 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:41:52,932 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:41:52,932 - INFO - Total courses retrieved: 6
+2025-05-20 11:41:52,934 - INFO - 127.0.0.1 - - [20/May/2025 11:41:52] "GET / HTTP/1.1" 200 -
+2025-05-20 11:41:52,971 - INFO - 127.0.0.1 - - [20/May/2025 11:41:52] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:41:57,785 - INFO - 127.0.0.1 - - [20/May/2025 11:41:57] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:41:57,821 - INFO - 127.0.0.1 - - [20/May/2025 11:41:57] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:05,438 - INFO - 127.0.0.1 - - [20/May/2025 11:42:05] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:42:32,971 - INFO - New course added: –ﬂ«¡ «’ÿ‰«⁄Ì with price: 
+2025-05-20 11:42:32,972 - INFO - 127.0.0.1 - - [20/May/2025 11:42:32] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:42:33,000 - INFO - 127.0.0.1 - - [20/May/2025 11:42:33] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:42:36,455 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:42:36,457 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:42:36,457 - INFO - Total courses retrieved: 7
+2025-05-20 11:42:36,460 - INFO - 127.0.0.1 - - [20/May/2025 11:42:36] "GET / HTTP/1.1" 200 -
+2025-05-20 11:42:36,495 - INFO - 127.0.0.1 - - [20/May/2025 11:42:36] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:38,836 - INFO - 127.0.0.1 - - [20/May/2025 11:42:38] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:42:38,867 - INFO - 127.0.0.1 - - [20/May/2025 11:42:38] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:41,453 - INFO - 127.0.0.1 - - [20/May/2025 11:42:41] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:42:41,480 - INFO - 127.0.0.1 - - [20/May/2025 11:42:41] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:43,022 - INFO - 127.0.0.1 - - [20/May/2025 11:42:43] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:42:43,055 - INFO - 127.0.0.1 - - [20/May/2025 11:42:43] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:47,262 - INFO - 127.0.0.1 - - [20/May/2025 11:42:47] "GET /Ai@modu95 HTTP/1.1" 200 -
+2025-05-20 11:42:47,292 - INFO - 127.0.0.1 - - [20/May/2025 11:42:47] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:42:58,040 - INFO - Course –ﬂ«¡ «’ÿ‰«⁄Ì deleted successfully.
+2025-05-20 11:42:58,041 - INFO - 127.0.0.1 - - [20/May/2025 11:42:58] "[32mPOST /admin/admin_courses/10 HTTP/1.1[0m" 302 -
+2025-05-20 11:42:58,051 - INFO - 127.0.0.1 - - [20/May/2025 11:42:58] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:43:03,034 - INFO - Course Data mining deleted successfully.
+2025-05-20 11:43:03,035 - INFO - 127.0.0.1 - - [20/May/2025 11:43:03] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:43:03,086 - INFO - 127.0.0.1 - - [20/May/2025 11:43:03] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:43:07,998 - INFO - 127.0.0.1 - - [20/May/2025 11:43:07] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:43:16,913 - INFO - New course added: –ﬂ«¡ «’ÿ‰«⁄Ì with price: 
+2025-05-20 11:43:16,914 - INFO - 127.0.0.1 - - [20/May/2025 11:43:16] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:43:16,932 - INFO - 127.0.0.1 - - [20/May/2025 11:43:16] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:43:22,500 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:43:22,503 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:43:22,504 - INFO - Total courses retrieved: 6
+2025-05-20 11:43:22,506 - INFO - 127.0.0.1 - - [20/May/2025 11:43:22] "GET / HTTP/1.1" 200 -
+2025-05-20 11:43:22,535 - INFO - 127.0.0.1 - - [20/May/2025 11:43:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:43:27,311 - INFO - 127.0.0.1 - - [20/May/2025 11:43:27] "GET /Ai@modu91 HTTP/1.1" 200 -
+2025-05-20 11:43:27,334 - INFO - 127.0.0.1 - - [20/May/2025 11:43:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:43:49,076 - INFO - 127.0.0.1 - - [20/May/2025 11:43:49] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:44:09,693 - INFO - New course added: «‰«‘Ìœ  Œ—Ã with price: 
+2025-05-20 11:44:09,694 - INFO - 127.0.0.1 - - [20/May/2025 11:44:09] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:44:09,712 - INFO - 127.0.0.1 - - [20/May/2025 11:44:09] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:44:12,326 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:44:12,329 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:44:12,329 - INFO - Total courses retrieved: 7
+2025-05-20 11:44:12,330 - INFO - 127.0.0.1 - - [20/May/2025 11:44:12] "GET / HTTP/1.1" 200 -
+2025-05-20 11:44:12,351 - INFO - 127.0.0.1 - - [20/May/2025 11:44:12] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:44:15,436 - INFO - 127.0.0.1 - - [20/May/2025 11:44:15] "GET /Ai@modu96 HTTP/1.1" 200 -
+2025-05-20 11:44:15,466 - INFO - 127.0.0.1 - - [20/May/2025 11:44:15] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:44:18,664 - INFO - 127.0.0.1 - - [20/May/2025 11:44:18] "GET /Ai@modu96 HTTP/1.1" 200 -
+2025-05-20 11:44:18,688 - INFO - 127.0.0.1 - - [20/May/2025 11:44:18] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:44:34,120 - INFO - 127.0.0.1 - - [20/May/2025 11:44:34] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:44:41,140 - INFO - Course «‰«‘Ìœ  Œ—Ã deleted successfully.
+2025-05-20 11:44:41,142 - INFO - 127.0.0.1 - - [20/May/2025 11:44:41] "[32mPOST /admin/admin_courses/10 HTTP/1.1[0m" 302 -
+2025-05-20 11:44:41,165 - INFO - 127.0.0.1 - - [20/May/2025 11:44:41] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:44:49,004 - INFO - Course –ﬂ«¡ «’ÿ‰«⁄Ì deleted successfully.
+2025-05-20 11:44:49,006 - INFO - 127.0.0.1 - - [20/May/2025 11:44:49] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:44:49,054 - INFO - 127.0.0.1 - - [20/May/2025 11:44:49] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:45:11,356 - INFO - New course added: ﬂÊ—” –ﬂ«¡ «’ÿ‰«⁄Ì with price: 
+2025-05-20 11:45:11,357 - INFO - 127.0.0.1 - - [20/May/2025 11:45:11] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:45:11,375 - INFO - 127.0.0.1 - - [20/May/2025 11:45:11] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:45:14,490 - INFO - 127.0.0.1 - - [20/May/2025 11:45:14] "[33mGET /Ai@modu96 HTTP/1.1[0m" 404 -
+2025-05-20 11:45:16,699 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:45:16,702 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:45:16,703 - INFO - Total courses retrieved: 6
+2025-05-20 11:45:16,706 - INFO - 127.0.0.1 - - [20/May/2025 11:45:16] "GET / HTTP/1.1" 200 -
+2025-05-20 11:45:16,728 - INFO - 127.0.0.1 - - [20/May/2025 11:45:16] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:45:18,205 - INFO - 127.0.0.1 - - [20/May/2025 11:45:18] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:45:18,240 - INFO - 127.0.0.1 - - [20/May/2025 11:45:18] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:46:25,448 - INFO - Course ﬂÊ—” –ﬂ«¡ «’ÿ‰«⁄Ì deleted successfully.
+2025-05-20 11:46:25,452 - INFO - 127.0.0.1 - - [20/May/2025 11:46:25] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:46:25,485 - INFO - 127.0.0.1 - - [20/May/2025 11:46:25] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:46:28,143 - INFO - 127.0.0.1 - - [20/May/2025 11:46:28] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:46:40,811 - INFO - New course added: «€«‰Ì  Œ—Ã Õ·Ê… with price: 
+2025-05-20 11:46:40,812 - INFO - 127.0.0.1 - - [20/May/2025 11:46:40] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:46:40,831 - INFO - 127.0.0.1 - - [20/May/2025 11:46:40] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:46:43,328 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:46:43,334 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:46:43,334 - INFO - Total courses retrieved: 6
+2025-05-20 11:46:43,338 - INFO - 127.0.0.1 - - [20/May/2025 11:46:43] "GET / HTTP/1.1" 200 -
+2025-05-20 11:46:43,358 - INFO - 127.0.0.1 - - [20/May/2025 11:46:43] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:46:45,819 - INFO - 127.0.0.1 - - [20/May/2025 11:46:45] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:46:45,860 - INFO - 127.0.0.1 - - [20/May/2025 11:46:45] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:46:49,739 - INFO - 127.0.0.1 - - [20/May/2025 11:46:49] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:46:49,762 - INFO - 127.0.0.1 - - [20/May/2025 11:46:49] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:46:55,909 - INFO - 127.0.0.1 - - [20/May/2025 11:46:55] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:47:30,241 - INFO - New course added: œÊ—… –ﬂ«¡ «’ÿ‰«⁄Ì  with price: 
+2025-05-20 11:47:30,242 - INFO - 127.0.0.1 - - [20/May/2025 11:47:30] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:47:30,262 - INFO - 127.0.0.1 - - [20/May/2025 11:47:30] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:47:36,205 - INFO - Course «€«‰Ì  Œ—Ã Õ·Ê… deleted successfully.
+2025-05-20 11:47:36,209 - INFO - 127.0.0.1 - - [20/May/2025 11:47:36] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:47:36,245 - INFO - 127.0.0.1 - - [20/May/2025 11:47:36] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:47:40,272 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:47:40,276 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:47:40,277 - INFO - Total courses retrieved: 6
+2025-05-20 11:47:40,279 - INFO - 127.0.0.1 - - [20/May/2025 11:47:40] "GET / HTTP/1.1" 200 -
+2025-05-20 11:47:40,312 - INFO - 127.0.0.1 - - [20/May/2025 11:47:40] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:47:41,555 - INFO - 127.0.0.1 - - [20/May/2025 11:47:41] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:47:41,590 - INFO - 127.0.0.1 - - [20/May/2025 11:47:41] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:48:07,050 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:48:07,053 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:48:07,053 - INFO - Total courses retrieved: 6
+2025-05-20 11:48:07,056 - INFO - 127.0.0.1 - - [20/May/2025 11:48:07] "GET / HTTP/1.1" 200 -
+2025-05-20 11:48:07,079 - INFO - 127.0.0.1 - - [20/May/2025 11:48:07] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:48:15,863 - INFO - 127.0.0.1 - - [20/May/2025 11:48:15] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:48:15,906 - INFO - 127.0.0.1 - - [20/May/2025 11:48:15] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:50:06,597 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:50:06,599 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:50:06,599 - INFO - Total courses retrieved: 6
+2025-05-20 11:50:06,601 - INFO - 127.0.0.1 - - [20/May/2025 11:50:06] "GET / HTTP/1.1" 200 -
+2025-05-20 11:50:06,635 - INFO - 127.0.0.1 - - [20/May/2025 11:50:06] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:50:08,263 - INFO - 127.0.0.1 - - [20/May/2025 11:50:08] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:50:08,295 - INFO - 127.0.0.1 - - [20/May/2025 11:50:08] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:50:16,183 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:50:16,189 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:50:16,189 - INFO - Total courses retrieved: 6
+2025-05-20 11:50:16,193 - INFO - 127.0.0.1 - - [20/May/2025 11:50:16] "GET / HTTP/1.1" 200 -
+2025-05-20 11:50:16,217 - INFO - 127.0.0.1 - - [20/May/2025 11:50:16] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:50:18,798 - INFO - 127.0.0.1 - - [20/May/2025 11:50:18] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:50:18,833 - INFO - 127.0.0.1 - - [20/May/2025 11:50:18] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:51:00,450 - INFO - 127.0.0.1 - - [20/May/2025 11:51:00] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:51:00,470 - INFO - 127.0.0.1 - - [20/May/2025 11:51:00] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:51:01,707 - INFO - 127.0.0.1 - - [20/May/2025 11:51:01] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:51:01,732 - INFO - 127.0.0.1 - - [20/May/2025 11:51:01] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:51:25,182 - INFO - 127.0.0.1 - - [20/May/2025 11:51:25] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:51:25,202 - INFO - 127.0.0.1 - - [20/May/2025 11:51:25] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:51:26,247 - INFO - 127.0.0.1 - - [20/May/2025 11:51:26] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:51:26,268 - INFO - 127.0.0.1 - - [20/May/2025 11:51:26] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:53:04,974 - INFO - 127.0.0.1 - - [20/May/2025 11:53:04] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 11:53:04,993 - INFO - 127.0.0.1 - - [20/May/2025 11:53:04] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:53:27,945 - INFO - 127.0.0.1 - - [20/May/2025 11:53:27] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:53:27,973 - INFO - 127.0.0.1 - - [20/May/2025 11:53:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:53:38,604 - INFO - 127.0.0.1 - - [20/May/2025 11:53:38] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:53:38,625 - INFO - 127.0.0.1 - - [20/May/2025 11:53:38] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:53:46,568 - INFO - 127.0.0.1 - - [20/May/2025 11:53:46] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 11:53:46,588 - INFO - 127.0.0.1 - - [20/May/2025 11:53:46] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:54:00,839 - INFO - 127.0.0.1 - - [20/May/2025 11:54:00] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:54:00,873 - INFO - 127.0.0.1 - - [20/May/2025 11:54:00] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:54:45,270 - INFO - Course œÊ—… –ﬂ«¡ «’ÿ‰«⁄Ì  deleted successfully.
+2025-05-20 11:54:45,272 - INFO - 127.0.0.1 - - [20/May/2025 11:54:45] "[32mPOST /admin/admin_courses/10 HTTP/1.1[0m" 302 -
+2025-05-20 11:54:45,307 - INFO - 127.0.0.1 - - [20/May/2025 11:54:45] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:54:47,739 - INFO - 127.0.0.1 - - [20/May/2025 11:54:47] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:55:08,730 - INFO - New course added: ﬂÊ—” –ﬂ«¡ «’ÿ‰«⁄Ì AI with price: 
+2025-05-20 11:55:08,734 - INFO - 127.0.0.1 - - [20/May/2025 11:55:08] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:55:08,754 - INFO - 127.0.0.1 - - [20/May/2025 11:55:08] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:55:11,396 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:55:11,400 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:55:11,400 - INFO - Total courses retrieved: 6
+2025-05-20 11:55:11,403 - INFO - 127.0.0.1 - - [20/May/2025 11:55:11] "GET / HTTP/1.1" 200 -
+2025-05-20 11:55:11,425 - INFO - 127.0.0.1 - - [20/May/2025 11:55:11] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:55:12,418 - INFO - 127.0.0.1 - - [20/May/2025 11:55:12] "GET /Ai@modu903 HTTP/1.1" 200 -
+2025-05-20 11:55:12,450 - INFO - 127.0.0.1 - - [20/May/2025 11:55:12] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:55:29,115 - INFO - 127.0.0.1 - - [20/May/2025 11:55:29] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:55:39,448 - INFO - New course added: AI Architecture tools || √œÊ«  «·–ﬂ«¡ «·«’ÿ‰«⁄Ì ›Ì «·⁄„«—… with price: 
+2025-05-20 11:55:39,449 - INFO - 127.0.0.1 - - [20/May/2025 11:55:39] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:55:39,467 - INFO - 127.0.0.1 - - [20/May/2025 11:55:39] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:55:44,220 - INFO - Course ﬂÊ—” –ﬂ«¡ «’ÿ‰«⁄Ì AI deleted successfully.
+2025-05-20 11:55:44,227 - INFO - 127.0.0.1 - - [20/May/2025 11:55:44] "[32mPOST /admin/admin_courses/9 HTTP/1.1[0m" 302 -
+2025-05-20 11:55:44,251 - INFO - 127.0.0.1 - - [20/May/2025 11:55:44] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:55:47,678 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:55:47,683 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:55:47,684 - INFO - Total courses retrieved: 6
+2025-05-20 11:55:47,688 - INFO - 127.0.0.1 - - [20/May/2025 11:55:47] "GET / HTTP/1.1" 200 -
+2025-05-20 11:55:47,707 - INFO - 127.0.0.1 - - [20/May/2025 11:55:47] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:55:49,237 - INFO - 127.0.0.1 - - [20/May/2025 11:55:49] "GET /Ai@modu905 HTTP/1.1" 200 -
+2025-05-20 11:55:49,264 - INFO - 127.0.0.1 - - [20/May/2025 11:55:49] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:55:51,638 - INFO - 127.0.0.1 - - [20/May/2025 11:55:51] "GET /Ai@modu905 HTTP/1.1" 200 -
+2025-05-20 11:55:51,662 - INFO - 127.0.0.1 - - [20/May/2025 11:55:51] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:55:55,617 - INFO - 127.0.0.1 - - [20/May/2025 11:55:55] "GET /Ai@modu905 HTTP/1.1" 200 -
+2025-05-20 11:55:55,641 - INFO - 127.0.0.1 - - [20/May/2025 11:55:55] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:56:14,711 - INFO - 127.0.0.1 - - [20/May/2025 11:56:14] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 11:57:45,782 - INFO - New course added: AI Architecture tools || √œÊ«  «·–ﬂ«¡ «·«’ÿ‰«⁄Ì ›Ì «·⁄„«—… with price: 
+2025-05-20 11:57:45,787 - INFO - 127.0.0.1 - - [20/May/2025 11:57:45] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 11:57:45,854 - INFO - 127.0.0.1 - - [20/May/2025 11:57:45] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:57:52,282 - INFO - Course AI Architecture tools || √œÊ«  «·–ﬂ«¡ «·«’ÿ‰«⁄Ì ›Ì «·⁄„«—… deleted successfully.
+2025-05-20 11:57:52,286 - INFO - 127.0.0.1 - - [20/May/2025 11:57:52] "[32mPOST /admin/admin_courses/10 HTTP/1.1[0m" 302 -
+2025-05-20 11:57:52,319 - INFO - 127.0.0.1 - - [20/May/2025 11:57:52] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 11:57:59,810 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:57:59,812 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:57:59,812 - INFO - Total courses retrieved: 6
+2025-05-20 11:57:59,813 - INFO - 127.0.0.1 - - [20/May/2025 11:57:59] "GET / HTTP/1.1" 200 -
+2025-05-20 11:57:59,840 - INFO - 127.0.0.1 - - [20/May/2025 11:57:59] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:58:09,743 - INFO - 127.0.0.1 - - [20/May/2025 11:58:09] "GET /Ai@modu900 HTTP/1.1" 200 -
+2025-05-20 11:58:09,797 - INFO - 127.0.0.1 - - [20/May/2025 11:58:09] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:58:18,162 - INFO - 127.0.0.1 - - [20/May/2025 11:58:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 11:58:41,819 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:58:41,823 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:58:41,823 - INFO - Total courses retrieved: 6
+2025-05-20 11:58:41,825 - INFO - 127.0.0.1 - - [20/May/2025 11:58:41] "GET / HTTP/1.1" 200 -
+2025-05-20 11:58:41,889 - INFO - 127.0.0.1 - - [20/May/2025 11:58:41] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:59:13,841 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 11:59:13,843 - INFO - Total featured courses retrieved: 2
+2025-05-20 11:59:13,843 - INFO - Total courses retrieved: 6
+2025-05-20 11:59:13,845 - INFO - 127.0.0.1 - - [20/May/2025 11:59:13] "GET / HTTP/1.1" 200 -
+2025-05-20 11:59:13,878 - INFO - 127.0.0.1 - - [20/May/2025 11:59:13] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 11:59:16,668 - INFO - 127.0.0.1 - - [20/May/2025 11:59:16] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 11:59:16,748 - INFO - 127.0.0.1 - - [20/May/2025 11:59:16] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 11:59:19,177 - INFO - 127.0.0.1 - - [20/May/2025 11:59:19] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 12:00:40,887 - INFO - New course added: œÊ—… ’‰«⁄… „Õ ÊÏ with price: 
+2025-05-20 12:00:40,890 - INFO - 127.0.0.1 - - [20/May/2025 12:00:40] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 12:00:40,908 - INFO - 127.0.0.1 - - [20/May/2025 12:00:40] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:00:48,626 - INFO - Course œÊ—… ’‰«⁄… „Õ ÊÏ deleted successfully.
+2025-05-20 12:00:48,633 - INFO - 127.0.0.1 - - [20/May/2025 12:00:48] "[32mPOST /admin/admin_courses/1 HTTP/1.1[0m" 302 -
+2025-05-20 12:00:48,663 - INFO - 127.0.0.1 - - [20/May/2025 12:00:48] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:00:52,706 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 12:00:52,713 - INFO - Total featured courses retrieved: 1
+2025-05-20 12:00:52,713 - INFO - Total courses retrieved: 6
+2025-05-20 12:00:52,716 - INFO - 127.0.0.1 - - [20/May/2025 12:00:52] "GET / HTTP/1.1" 200 -
+2025-05-20 12:00:52,740 - INFO - 127.0.0.1 - - [20/May/2025 12:00:52] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:01:01,388 - INFO - 127.0.0.1 - - [20/May/2025 12:01:01] "GET /mediaG902 HTTP/1.1" 200 -
+2025-05-20 12:01:01,429 - INFO - 127.0.0.1 - - [20/May/2025 12:01:01] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:01:25,887 - INFO - 127.0.0.1 - - [20/May/2025 12:01:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 12:01:56,730 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 12:01:56,732 - INFO - Total featured courses retrieved: 1
+2025-05-20 12:01:56,733 - INFO - Total courses retrieved: 6
+2025-05-20 12:01:56,735 - INFO - 127.0.0.1 - - [20/May/2025 12:01:56] "GET / HTTP/1.1" 200 -
+2025-05-20 12:01:56,759 - INFO - 127.0.0.1 - - [20/May/2025 12:01:56] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:02:02,547 - INFO - 127.0.0.1 - - [20/May/2025 12:02:02] "GET /user/Information HTTP/1.1" 200 -
+2025-05-20 12:02:02,571 - INFO - 127.0.0.1 - - [20/May/2025 12:02:02] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:02:18,813 - INFO - 127.0.0.1 - - [20/May/2025 12:02:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-20 12:02:24,048 - INFO - 127.0.0.1 - - [20/May/2025 12:02:24] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 12:02:24,172 - INFO - 127.0.0.1 - - [20/May/2025 12:02:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 12:02:35,829 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 12:02:35,831 - INFO - 127.0.0.1 - - [20/May/2025 12:02:35] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 12:02:35,842 - INFO - Total featured courses retrieved: 1
+2025-05-20 12:02:35,842 - INFO - Total courses retrieved: 6
+2025-05-20 12:02:35,843 - INFO - 127.0.0.1 - - [20/May/2025 12:02:35] "GET / HTTP/1.1" 200 -
+2025-05-20 12:02:35,893 - INFO - 127.0.0.1 - - [20/May/2025 12:02:35] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 12:02:40,771 - INFO - 127.0.0.1 - - [20/May/2025 12:02:40] "GET /mediaG902 HTTP/1.1" 200 -
+2025-05-20 12:02:40,798 - INFO - 127.0.0.1 - - [20/May/2025 12:02:40] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:02:55,076 - INFO - 127.0.0.1 - - [20/May/2025 12:02:55] "GET /user/Information HTTP/1.1" 200 -
+2025-05-20 12:02:55,109 - INFO - 127.0.0.1 - - [20/May/2025 12:02:55] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:03:38,471 - INFO - Total featured courses retrieved: 1
+2025-05-20 12:03:38,471 - INFO - Total courses retrieved: 6
+2025-05-20 12:03:38,473 - INFO - 127.0.0.1 - - [20/May/2025 12:03:38] "GET / HTTP/1.1" 200 -
+2025-05-20 12:03:38,492 - INFO - 127.0.0.1 - - [20/May/2025 12:03:38] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:03:40,130 - INFO - 127.0.0.1 - - [20/May/2025 12:03:40] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 12:03:40,157 - INFO - 127.0.0.1 - - [20/May/2025 12:03:40] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:03:46,757 - INFO - 127.0.0.1 - - [20/May/2025 12:03:46] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 12:03:46,782 - INFO - 127.0.0.1 - - [20/May/2025 12:03:46] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:04:39,929 - INFO - 127.0.0.1 - - [20/May/2025 12:04:39] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 12:04:39,951 - INFO - 127.0.0.1 - - [20/May/2025 12:04:39] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:04:53,277 - INFO - 127.0.0.1 - - [20/May/2025 12:04:53] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 12:04:53,295 - INFO - 127.0.0.1 - - [20/May/2025 12:04:53] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:04:58,958 - INFO - 127.0.0.1 - - [20/May/2025 12:04:58] "GET /fluttera%24hjd HTTP/1.1" 200 -
+2025-05-20 12:04:58,986 - INFO - 127.0.0.1 - - [20/May/2025 12:04:58] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:05:25,392 - INFO - 127.0.0.1 - - [20/May/2025 12:05:25] "GET /admin/add_course HTTP/1.1" 200 -
+2025-05-20 12:06:11,041 - INFO - New course added: Flutter |ﬂÊ—” ›·« — «·„” ÊÏ «·«Ê· with price: 
+2025-05-20 12:06:11,042 - INFO - 127.0.0.1 - - [20/May/2025 12:06:11] "[32mPOST /admin/add_course HTTP/1.1[0m" 302 -
+2025-05-20 12:06:11,061 - INFO - 127.0.0.1 - - [20/May/2025 12:06:11] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:06:46,574 - INFO - Course ﬂÊ—” Flutter deleted successfully.
+2025-05-20 12:06:46,577 - INFO - 127.0.0.1 - - [20/May/2025 12:06:46] "[32mPOST /admin/admin_courses/4 HTTP/1.1[0m" 302 -
+2025-05-20 12:06:46,623 - INFO - 127.0.0.1 - - [20/May/2025 12:06:46] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:06:48,974 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 12:06:48,982 - INFO - Total featured courses retrieved: 0
+2025-05-20 12:06:48,982 - INFO - Total courses retrieved: 6
+2025-05-20 12:06:48,984 - INFO - 127.0.0.1 - - [20/May/2025 12:06:48] "GET / HTTP/1.1" 200 -
+2025-05-20 12:06:49,008 - INFO - 127.0.0.1 - - [20/May/2025 12:06:49] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:07:05,837 - INFO - 127.0.0.1 - - [20/May/2025 12:07:05] "[32mPOST /admin/toggle_featured/6 HTTP/1.1[0m" 302 -
+2025-05-20 12:07:05,857 - INFO - 127.0.0.1 - - [20/May/2025 12:07:05] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:07:08,319 - INFO - 127.0.0.1 - - [20/May/2025 12:07:08] "[32mPOST /admin/toggle_featured/13 HTTP/1.1[0m" 302 -
+2025-05-20 12:07:08,353 - INFO - 127.0.0.1 - - [20/May/2025 12:07:08] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:07:11,372 - INFO - 127.0.0.1 - - [20/May/2025 12:07:11] "[32mPOST /admin/toggle_featured/6 HTTP/1.1[0m" 302 -
+2025-05-20 12:07:11,388 - INFO - 127.0.0.1 - - [20/May/2025 12:07:11] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:07:13,171 - INFO - 127.0.0.1 - - [20/May/2025 12:07:13] "[32mPOST /admin/toggle_featured/6 HTTP/1.1[0m" 302 -
+2025-05-20 12:07:13,187 - INFO - 127.0.0.1 - - [20/May/2025 12:07:13] "GET /admin/admin_courses HTTP/1.1" 200 -
+2025-05-20 12:07:17,627 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 12:07:17,631 - INFO - Total featured courses retrieved: 2
+2025-05-20 12:07:17,631 - INFO - Total courses retrieved: 6
+2025-05-20 12:07:17,634 - INFO - 127.0.0.1 - - [20/May/2025 12:07:17] "GET / HTTP/1.1" 200 -
+2025-05-20 12:07:17,659 - INFO - 127.0.0.1 - - [20/May/2025 12:07:17] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:07:21,317 - INFO - 127.0.0.1 - - [20/May/2025 12:07:21] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 12:07:21,349 - INFO - 127.0.0.1 - - [20/May/2025 12:07:21] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:07:27,441 - INFO - 127.0.0.1 - - [20/May/2025 12:07:27] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 12:07:27,466 - INFO - 127.0.0.1 - - [20/May/2025 12:07:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:07:52,251 - INFO - 127.0.0.1 - - [20/May/2025 12:07:52] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 12:07:52,291 - INFO - 127.0.0.1 - - [20/May/2025 12:07:52] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:08:06,928 - INFO - Total featured courses retrieved: 2
+2025-05-20 12:08:06,928 - INFO - Total courses retrieved: 6
+2025-05-20 12:08:06,930 - INFO - 127.0.0.1 - - [20/May/2025 12:08:06] "GET / HTTP/1.1" 200 -
+2025-05-20 12:08:07,003 - INFO - 127.0.0.1 - - [20/May/2025 12:08:07] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:08:09,100 - INFO - Total featured courses retrieved: 2
+2025-05-20 12:08:09,100 - INFO - Total courses retrieved: 6
+2025-05-20 12:08:09,103 - INFO - 127.0.0.1 - - [20/May/2025 12:08:09] "GET / HTTP/1.1" 200 -
+2025-05-20 12:08:09,127 - INFO - 127.0.0.1 - - [20/May/2025 12:08:09] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 12:08:14,880 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 12:08:14,882 - INFO - Total featured courses retrieved: 2
+2025-05-20 12:08:14,882 - INFO - Total courses retrieved: 6
+2025-05-20 12:08:14,884 - INFO - 127.0.0.1 - - [20/May/2025 12:08:14] "GET / HTTP/1.1" 200 -
+2025-05-20 12:08:14,921 - INFO - 127.0.0.1 - - [20/May/2025 12:08:14] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:22:19,444 - INFO -  * Restarting with stat
+2025-05-20 14:22:21,007 - WARNING -  * Debugger is active!
+2025-05-20 14:22:21,027 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:22:21,437 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:22:26,950 - INFO - 127.0.0.1 - - [20/May/2025 14:22:26] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-05-20 14:22:31,962 - INFO - 127.0.0.1 - - [20/May/2025 14:22:31] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 14:22:32,405 - INFO - 127.0.0.1 - - [20/May/2025 14:22:32] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 14:22:35,064 - INFO - 127.0.0.1 - - [20/May/2025 14:22:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 14:23:55,967 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 14:23:56,089 - INFO -  * Restarting with stat
+2025-05-20 14:23:57,832 - WARNING -  * Debugger is active!
+2025-05-20 14:23:57,843 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:23:58,098 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:24:01,577 - INFO - 127.0.0.1 - - [20/May/2025 14:24:01] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 14:24:01,909 - INFO - 127.0.0.1 - - [20/May/2025 14:24:01] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 14:24:02,955 - INFO - 127.0.0.1 - - [20/May/2025 14:24:02] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 14:24:03,038 - INFO - 127.0.0.1 - - [20/May/2025 14:24:03] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 14:24:09,717 - INFO - 127.0.0.1 - - [20/May/2025 14:24:09] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 14:24:10,111 - INFO - 127.0.0.1 - - [20/May/2025 14:24:10] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 14:24:27,348 - INFO -  * Restarting with stat
+2025-05-20 14:24:31,040 - WARNING -  * Debugger is active!
+2025-05-20 14:24:31,069 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:24:31,562 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:35:28,657 - INFO - User admin logged in successfully.
+2025-05-20 14:35:29,542 - INFO - User admin logged in successfully.
+2025-05-20 14:35:30,072 - INFO - User testuser logged in successfully.
+2025-05-20 14:35:30,102 - INFO - Total featured courses retrieved: 0
+2025-05-20 14:35:30,102 - INFO - Total courses retrieved: 1
+2025-05-20 14:35:30,644 - INFO - User testuser logged in successfully.
+2025-05-20 14:35:30,648 - INFO - Total featured courses retrieved: 0
+2025-05-20 14:35:30,648 - INFO - Total courses retrieved: 1
+2025-05-20 14:35:31,857 - INFO - User testuser logged in successfully.
+2025-05-20 14:35:31,861 - INFO - Total featured courses retrieved: 0
+2025-05-20 14:35:31,861 - INFO - Total courses retrieved: 1
+2025-05-20 14:35:32,372 - INFO - New user registered: newuser
+2025-05-20 14:36:25,847 - INFO -  * Restarting with stat
+2025-05-20 14:36:27,471 - WARNING -  * Debugger is active!
+2025-05-20 14:36:27,484 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:36:27,732 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:36:31,706 - INFO - 127.0.0.1 - - [20/May/2025 14:36:31] "[31m[1mGET /admin/index HTTP/1.1[0m" 401 -
+2025-05-20 14:36:41,100 - INFO - 127.0.0.1 - - [20/May/2025 14:36:41] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 14:37:10,547 - INFO - User Osama Sadeq logged in successfully.
+2025-05-20 14:37:10,549 - INFO - 127.0.0.1 - - [20/May/2025 14:37:10] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 14:37:10,562 - INFO - 127.0.0.1 - - [20/May/2025 14:37:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 14:37:10,569 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 14:37:10,575 - INFO - Total featured courses retrieved: 2
+2025-05-20 14:37:10,576 - INFO - Total courses retrieved: 6
+2025-05-20 14:37:10,614 - INFO - 127.0.0.1 - - [20/May/2025 14:37:10] "GET / HTTP/1.1" 200 -
+2025-05-20 14:37:10,663 - INFO - 127.0.0.1 - - [20/May/2025 14:37:10] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 14:37:32,882 - INFO - 127.0.0.1 - - [20/May/2025 14:37:32] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 14:37:32,914 - INFO - 127.0.0.1 - - [20/May/2025 14:37:32] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:37:59,141 - INFO - 127.0.0.1 - - [20/May/2025 14:37:59] "GET /flutterG902 HTTP/1.1" 200 -
+2025-05-20 14:37:59,167 - INFO - 127.0.0.1 - - [20/May/2025 14:37:59] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:38:14,748 - INFO - 127.0.0.1 - - [20/May/2025 14:38:14] "GET /Sekat$hjd HTTP/1.1" 200 -
+2025-05-20 14:38:14,784 - INFO - 127.0.0.1 - - [20/May/2025 14:38:14] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:38:27,745 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 14:38:27,747 - INFO - Total featured courses retrieved: 2
+2025-05-20 14:38:27,747 - INFO - Total courses retrieved: 6
+2025-05-20 14:38:27,749 - INFO - 127.0.0.1 - - [20/May/2025 14:38:27] "GET / HTTP/1.1" 200 -
+2025-05-20 14:38:27,781 - INFO - 127.0.0.1 - - [20/May/2025 14:38:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:38:32,565 - INFO - 127.0.0.1 - - [20/May/2025 14:38:32] "GET /Ai@modu900 HTTP/1.1" 200 -
+2025-05-20 14:38:32,590 - INFO - 127.0.0.1 - - [20/May/2025 14:38:32] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:38:56,944 - INFO - 127.0.0.1 - - [20/May/2025 14:38:56] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 14:38:56,980 - INFO - 127.0.0.1 - - [20/May/2025 14:38:56] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:39:13,305 - INFO - 127.0.0.1 - - [20/May/2025 14:39:13] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 14:39:13,329 - INFO - 127.0.0.1 - - [20/May/2025 14:39:13] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:39:21,392 - INFO - 127.0.0.1 - - [20/May/2025 14:39:21] "GET /Game@modu95 HTTP/1.1" 200 -
+2025-05-20 14:39:21,412 - INFO - 127.0.0.1 - - [20/May/2025 14:39:21] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:39:27,214 - INFO - 127.0.0.1 - - [20/May/2025 14:39:27] "GET /Game@modu93 HTTP/1.1" 200 -
+2025-05-20 14:39:27,246 - INFO - 127.0.0.1 - - [20/May/2025 14:39:27] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:40:11,305 - INFO - 127.0.0.1 - - [20/May/2025 14:40:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 14:40:19,282 - INFO - 127.0.0.1 - - [20/May/2025 14:40:19] "GET /admin/index HTTP/1.1" 200 -
+2025-05-20 14:40:19,761 - INFO - 127.0.0.1 - - [20/May/2025 14:40:19] "GET /admin/users HTTP/1.1" 200 -
+2025-05-20 14:40:30,216 - INFO - 127.0.0.1 - - [20/May/2025 14:40:30] "GET /user/Information HTTP/1.1" 200 -
+2025-05-20 14:40:30,245 - INFO - 127.0.0.1 - - [20/May/2025 14:40:30] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 14:40:56,888 - INFO - 127.0.0.1 - - [20/May/2025 14:40:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 14:50:59,626 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 14:50:59,857 - INFO -  * Restarting with stat
+2025-05-20 14:51:02,029 - WARNING -  * Debugger is active!
+2025-05-20 14:51:02,044 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:51:02,342 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:51:15,787 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 14:51:15,895 - INFO -  * Restarting with stat
+2025-05-20 14:51:17,937 - WARNING -  * Debugger is active!
+2025-05-20 14:51:17,959 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:51:18,355 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:51:56,170 - INFO - 127.0.0.1 - - [20/May/2025 14:51:56] "[33mGET /create-ai-course HTTP/1.1[0m" 404 -
+2025-05-20 14:52:38,523 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "[35m[1mGET /ai-course-creator HTTP/1.1[0m" 500 -
+2025-05-20 14:52:38,561 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "GET /ai-course-creator?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 14:52:38,571 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "GET /ai-course-creator?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 14:52:38,595 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "GET /ai-course-creator?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 14:52:38,622 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "GET /ai-course-creator?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 14:52:38,729 - INFO - 127.0.0.1 - - [20/May/2025 14:52:38] "GET /ai-course-creator?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 14:54:54,454 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 14:54:54,633 - INFO -  * Restarting with stat
+2025-05-20 14:54:56,542 - WARNING -  * Debugger is active!
+2025-05-20 14:54:56,558 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 14:54:56,845 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 14:54:59,937 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 14:54:59,942 - INFO - Total featured courses retrieved: 2
+2025-05-20 14:54:59,942 - INFO - Total courses retrieved: 6
+2025-05-20 14:54:59,976 - INFO - 127.0.0.1 - - [20/May/2025 14:54:59] "GET / HTTP/1.1" 200 -
+2025-05-20 14:54:59,999 - INFO - 127.0.0.1 - - [20/May/2025 14:54:59] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 15:10:10,442 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:10,700 - INFO -  * Restarting with stat
+2025-05-20 15:10:12,584 - WARNING -  * Debugger is active!
+2025-05-20 15:10:12,598 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:12,874 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:17,076 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:17,219 - INFO -  * Restarting with stat
+2025-05-20 15:10:19,037 - WARNING -  * Debugger is active!
+2025-05-20 15:10:19,053 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:19,340 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:23,457 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:23,575 - INFO -  * Restarting with stat
+2025-05-20 15:10:25,387 - WARNING -  * Debugger is active!
+2025-05-20 15:10:25,402 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:25,720 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:27,322 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:27,448 - INFO -  * Restarting with stat
+2025-05-20 15:10:29,107 - WARNING -  * Debugger is active!
+2025-05-20 15:10:29,121 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:29,374 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:33,411 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:33,518 - INFO -  * Restarting with stat
+2025-05-20 15:10:35,145 - WARNING -  * Debugger is active!
+2025-05-20 15:10:35,158 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:35,424 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:37,005 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:10:37,107 - INFO -  * Restarting with stat
+2025-05-20 15:10:38,645 - WARNING -  * Debugger is active!
+2025-05-20 15:10:38,658 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:10:38,901 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:10:51,183 - INFO - 127.0.0.1 - - [20/May/2025 15:10:51] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 15:10:58,432 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:10:58,462 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/css/modern_landing.css HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,470 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/logo.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,472 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/hero-dashboard.png HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,507 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/hero-blur-shape.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,515 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/partner-1.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,518 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/partner-2.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,521 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/js/modern_landing.js HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,529 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/partner-3.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,535 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/partner-5.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,542 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/partner-4.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,550 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/client-1.jpg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,552 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/solution-dashboard.png HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,556 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/client-2.jpg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,561 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/logo-white.svg HTTP/1.1[0m" 404 -
+2025-05-20 15:10:58,570 - INFO - 127.0.0.1 - - [20/May/2025 15:10:58] "[33mGET /user/images/client-3.jpg HTTP/1.1[0m" 404 -
+2025-05-20 15:11:52,871 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 15:11:52,878 - INFO - Total featured courses retrieved: 2
+2025-05-20 15:11:52,878 - INFO - Total courses retrieved: 6
+2025-05-20 15:11:52,903 - INFO - 127.0.0.1 - - [20/May/2025 15:11:52] "GET / HTTP/1.1" 200 -
+2025-05-20 15:11:52,935 - INFO - 127.0.0.1 - - [20/May/2025 15:11:52] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 15:14:14,488 - INFO - 127.0.0.1 - - [20/May/2025 15:14:14] "GET /user/about HTTP/1.1" 200 -
+2025-05-20 15:14:14,529 - INFO - 127.0.0.1 - - [20/May/2025 15:14:14] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 15:14:14,947 - INFO - 127.0.0.1 - - [20/May/2025 15:14:14] "GET /static/images/IMG-20250517-WA0019.jpg HTTP/1.1" 200 -
+2025-05-20 15:14:14,947 - INFO - 127.0.0.1 - - [20/May/2025 15:14:14] "GET /static/images/1747503466043.jpg HTTP/1.1" 200 -
+2025-05-20 15:18:02,786 - INFO - 127.0.0.1 - - [20/May/2025 15:18:02] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:20:12,835 - INFO - 127.0.0.1 - - [20/May/2025 15:20:12] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:25:02,228 - INFO - 127.0.0.1 - - [20/May/2025 15:25:02] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:36,277 - INFO - 127.0.0.1 - - [20/May/2025 15:28:36] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:37,577 - INFO - 127.0.0.1 - - [20/May/2025 15:28:37] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:39,465 - INFO - 127.0.0.1 - - [20/May/2025 15:28:39] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:40,476 - INFO - 127.0.0.1 - - [20/May/2025 15:28:40] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:41,214 - INFO - 127.0.0.1 - - [20/May/2025 15:28:41] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:46,345 - INFO - 127.0.0.1 - - [20/May/2025 15:28:46] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:47,078 - INFO - 127.0.0.1 - - [20/May/2025 15:28:47] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:47,680 - INFO - 127.0.0.1 - - [20/May/2025 15:28:47] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:28:50,726 - INFO - 127.0.0.1 - - [20/May/2025 15:28:50] "GET /user/ai_course HTTP/1.1" 200 -
+2025-05-20 15:31:58,277 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:31:58,575 - INFO -  * Restarting with stat
+2025-05-20 15:32:01,101 - WARNING -  * Debugger is active!
+2025-05-20 15:32:01,136 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:32:01,554 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:32:01,742 - INFO - 127.0.0.1 - - [20/May/2025 15:32:01] "[35m[1mGET /ai_course HTTP/1.1[0m" 500 -
+2025-05-20 15:32:01,777 - INFO - 127.0.0.1 - - [20/May/2025 15:32:01] "GET /ai_course?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 15:32:01,896 - INFO - 127.0.0.1 - - [20/May/2025 15:32:01] "GET /ai_course?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 15:32:02,089 - INFO - 127.0.0.1 - - [20/May/2025 15:32:02] "GET /ai_course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:32:02,105 - INFO - 127.0.0.1 - - [20/May/2025 15:32:02] "GET /ai_course?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 15:32:02,259 - INFO - 127.0.0.1 - - [20/May/2025 15:32:02] "GET /ai_course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:32:03,279 - INFO - 127.0.0.1 - - [20/May/2025 15:32:03] "[35m[1mGET /ai_course HTTP/1.1[0m" 500 -
+2025-05-20 15:32:03,321 - INFO - 127.0.0.1 - - [20/May/2025 15:32:03] "GET /ai_course?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 15:32:03,322 - INFO - 127.0.0.1 - - [20/May/2025 15:32:03] "GET /ai_course?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 15:32:03,363 - INFO - 127.0.0.1 - - [20/May/2025 15:32:03] "GET /ai_course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:32:03,437 - INFO - 127.0.0.1 - - [20/May/2025 15:32:03] "GET /ai_course?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 15:32:08,805 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:32:09,047 - INFO -  * Restarting with stat
+2025-05-20 15:32:10,821 - WARNING -  * Debugger is active!
+2025-05-20 15:32:10,835 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:32:11,098 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:32:11,238 - INFO - 127.0.0.1 - - [20/May/2025 15:32:11] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:33:17,269 - INFO - 127.0.0.1 - - [20/May/2025 15:33:17] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:33:18,719 - INFO - 127.0.0.1 - - [20/May/2025 15:33:18] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:33:27,350 - INFO - 127.0.0.1 - - [20/May/2025 15:33:27] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:41:52,158 - INFO - 127.0.0.1 - - [20/May/2025 15:41:52] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:45:53,931 - INFO - 127.0.0.1 - - [20/May/2025 15:45:53] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:47:18,347 - INFO - 127.0.0.1 - - [20/May/2025 15:47:18] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:47:20,254 - INFO - 127.0.0.1 - - [20/May/2025 15:47:20] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:48:11,567 - INFO - 127.0.0.1 - - [20/May/2025 15:48:11] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:52:29,867 - INFO - 127.0.0.1 - - [20/May/2025 15:52:29] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:52:31,048 - INFO - 127.0.0.1 - - [20/May/2025 15:52:31] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:52:31,847 - INFO - 127.0.0.1 - - [20/May/2025 15:52:31] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:52:41,015 - INFO - 127.0.0.1 - - [20/May/2025 15:52:41] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:52:50,012 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 15:52:50,019 - INFO - Total featured courses retrieved: 2
+2025-05-20 15:52:50,019 - INFO - Total courses retrieved: 6
+2025-05-20 15:52:50,094 - INFO - 127.0.0.1 - - [20/May/2025 15:52:50] "GET / HTTP/1.1" 200 -
+2025-05-20 15:52:50,132 - INFO - 127.0.0.1 - - [20/May/2025 15:52:50] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 15:53:58,627 - INFO - 127.0.0.1 - - [20/May/2025 15:53:58] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:53:59,928 - INFO - 127.0.0.1 - - [20/May/2025 15:53:59] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:54:07,872 - INFO - 127.0.0.1 - - [20/May/2025 15:54:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-20 15:54:39,237 - INFO - 127.0.0.1 - - [20/May/2025 15:54:39] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:54:39,920 - INFO - 127.0.0.1 - - [20/May/2025 15:54:39] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:54:40,639 - INFO - 127.0.0.1 - - [20/May/2025 15:54:40] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:10,318 - INFO - 127.0.0.1 - - [20/May/2025 15:55:10] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:25,070 - INFO - 127.0.0.1 - - [20/May/2025 15:55:25] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:36,685 - INFO - 127.0.0.1 - - [20/May/2025 15:55:36] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:44,417 - INFO - 127.0.0.1 - - [20/May/2025 15:55:44] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:58,086 - INFO - 127.0.0.1 - - [20/May/2025 15:55:58] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:55:58,647 - INFO - 127.0.0.1 - - [20/May/2025 15:55:58] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:56:05,549 - INFO - 127.0.0.1 - - [20/May/2025 15:56:05] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:56:13,633 - INFO - 127.0.0.1 - - [20/May/2025 15:56:13] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:56:20,763 - INFO - 127.0.0.1 - - [20/May/2025 15:56:20] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:56:26,061 - INFO - 127.0.0.1 - - [20/May/2025 15:56:26] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:07,179 - INFO - 127.0.0.1 - - [20/May/2025 15:57:07] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:11,292 - INFO - 127.0.0.1 - - [20/May/2025 15:57:11] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:11,788 - INFO - 127.0.0.1 - - [20/May/2025 15:57:11] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:21,274 - INFO - 127.0.0.1 - - [20/May/2025 15:57:21] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:25,155 - INFO - 127.0.0.1 - - [20/May/2025 15:57:25] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:33,082 - INFO - 127.0.0.1 - - [20/May/2025 15:57:33] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:39,294 - INFO - 127.0.0.1 - - [20/May/2025 15:57:39] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:42,571 - INFO - 127.0.0.1 - - [20/May/2025 15:57:42] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:42,990 - INFO - 127.0.0.1 - - [20/May/2025 15:57:42] "GET /ai_course HTTP/1.1" 200 -
+2025-05-20 15:57:56,691 - INFO - 127.0.0.1 - - [20/May/2025 15:57:56] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:58:00,785 - INFO - 127.0.0.1 - - [20/May/2025 15:58:00] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 15:58:02,180 - INFO - 127.0.0.1 - - [20/May/2025 15:58:02] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:59:04,903 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:59:05,279 - INFO -  * Restarting with stat
+2025-05-20 15:59:07,769 - WARNING -  * Debugger is active!
+2025-05-20 15:59:07,786 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 15:59:08,100 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 15:59:08,182 - INFO - 127.0.0.1 - - [20/May/2025 15:59:08] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 15:59:12,649 - INFO - 127.0.0.1 - - [20/May/2025 15:59:12] "[33mGET /ai_course HTTP/1.1[0m" 404 -
+2025-05-20 15:59:13,048 - INFO - 127.0.0.1 - - [20/May/2025 15:59:13] "[33mGET /ai_course HTTP/1.1[0m" 404 -
+2025-05-20 15:59:16,283 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "[35m[1mGET /course HTTP/1.1[0m" 500 -
+2025-05-20 15:59:16,316 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "GET /course?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 15:59:16,318 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "GET /course?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 15:59:16,375 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "GET /course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:59:16,377 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "GET /course?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 15:59:16,460 - INFO - 127.0.0.1 - - [20/May/2025 15:59:16] "GET /course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:59:48,421 - INFO - 127.0.0.1 - - [20/May/2025 15:59:48] "[35m[1mGET /course HTTP/1.1[0m" 500 -
+2025-05-20 15:59:48,446 - INFO - 127.0.0.1 - - [20/May/2025 15:59:48] "GET /course?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-20 15:59:48,449 - INFO - 127.0.0.1 - - [20/May/2025 15:59:48] "GET /course?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-20 15:59:48,521 - INFO - 127.0.0.1 - - [20/May/2025 15:59:48] "GET /course?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-20 15:59:48,602 - INFO - 127.0.0.1 - - [20/May/2025 15:59:48] "GET /course?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-05-20 15:59:58,302 - INFO -  * Detected change in 'c:\\Users\\hp\\Desktop\\projectEnd\\app.py', reloading
+2025-05-20 15:59:58,429 - INFO -  * Restarting with stat
+2025-05-20 16:00:08,883 - INFO -  * Restarting with stat
+2025-05-20 16:00:10,950 - WARNING -  * Debugger is active!
+2025-05-20 16:00:10,963 - INFO -  * Debugger PIN: 131-681-591
+2025-05-20 16:00:11,231 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-20 16:00:11,467 - INFO - 127.0.0.1 - - [20/May/2025 16:00:11] "GET /course HTTP/1.1" 200 -
+2025-05-20 16:00:14,524 - INFO - 127.0.0.1 - - [20/May/2025 16:00:14] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:00:20,078 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 16:00:20,088 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:00:20,088 - INFO - Total courses retrieved: 6
+2025-05-20 16:00:20,118 - INFO - 127.0.0.1 - - [20/May/2025 16:00:20] "GET / HTTP/1.1" 200 -
+2025-05-20 16:00:20,162 - INFO - 127.0.0.1 - - [20/May/2025 16:00:20] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:00:56,824 - INFO - 127.0.0.1 - - [20/May/2025 16:00:56] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:00:59,686 - INFO - 127.0.0.1 - - [20/May/2025 16:00:59] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:01,864 - INFO - 127.0.0.1 - - [20/May/2025 16:01:01] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:02,538 - INFO - 127.0.0.1 - - [20/May/2025 16:01:02] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:03,145 - INFO - 127.0.0.1 - - [20/May/2025 16:01:03] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:03,735 - INFO - 127.0.0.1 - - [20/May/2025 16:01:03] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:04,094 - INFO - 127.0.0.1 - - [20/May/2025 16:01:04] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:04,444 - INFO - 127.0.0.1 - - [20/May/2025 16:01:04] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:04,710 - INFO - 127.0.0.1 - - [20/May/2025 16:01:04] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:04,967 - INFO - 127.0.0.1 - - [20/May/2025 16:01:04] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:05,337 - INFO - 127.0.0.1 - - [20/May/2025 16:01:05] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:21,239 - INFO - 127.0.0.1 - - [20/May/2025 16:01:21] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:21,963 - INFO - 127.0.0.1 - - [20/May/2025 16:01:21] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:23,511 - INFO - 127.0.0.1 - - [20/May/2025 16:01:23] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:01:27,660 - INFO - 127.0.0.1 - - [20/May/2025 16:01:27] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:01:44,888 - INFO - 127.0.0.1 - - [20/May/2025 16:01:44] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:01:53,249 - INFO - 127.0.0.1 - - [20/May/2025 16:01:53] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:02:08,095 - INFO - 127.0.0.1 - - [20/May/2025 16:02:08] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:02:19,764 - INFO - 127.0.0.1 - - [20/May/2025 16:02:19] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:02:23,685 - INFO - 127.0.0.1 - - [20/May/2025 16:02:23] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:02:57,808 - INFO - 127.0.0.1 - - [20/May/2025 16:02:57] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:03:00,429 - INFO - 127.0.0.1 - - [20/May/2025 16:03:00] "GET /user/register HTTP/1.1" 200 -
+2025-05-20 16:03:02,110 - INFO - 127.0.0.1 - - [20/May/2025 16:03:02] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:03:05,691 - INFO - 127.0.0.1 - - [20/May/2025 16:03:05] "GET /user/login_pass HTTP/1.1" 200 -
+2025-05-20 16:03:24,104 - WARNING - Failed login attempt for username: Eng.Ahmed Ali
+2025-05-20 16:03:24,106 - INFO - 127.0.0.1 - - [20/May/2025 16:03:24] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:03:24,113 - INFO - 127.0.0.1 - - [20/May/2025 16:03:24] "GET /user/login HTTP/1.1" 200 -
+2025-05-20 16:03:36,811 - INFO - User Eng.Ahmed ali logged in successfully.
+2025-05-20 16:03:36,814 - INFO - 127.0.0.1 - - [20/May/2025 16:03:36] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:03:36,825 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:03:36,825 - INFO - Total courses retrieved: 6
+2025-05-20 16:03:36,827 - INFO - 127.0.0.1 - - [20/May/2025 16:03:36] "GET / HTTP/1.1" 200 -
+2025-05-20 16:03:36,868 - INFO - 127.0.0.1 - - [20/May/2025 16:03:36] "GET /static/images/j.png HTTP/1.1" 200 -
+2025-05-20 16:03:53,892 - INFO - 127.0.0.1 - - [20/May/2025 16:03:53] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 16:04:12,749 - INFO - User Osama Sadeq logged in successfully.
+2025-05-20 16:04:12,750 - INFO - 127.0.0.1 - - [20/May/2025 16:04:12] "[32mPOST /user/login HTTP/1.1[0m" 302 -
+2025-05-20 16:04:12,758 - INFO - 127.0.0.1 - - [20/May/2025 16:04:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 16:04:12,768 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 16:04:12,769 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:04:12,769 - INFO - Total courses retrieved: 6
+2025-05-20 16:04:12,771 - INFO - 127.0.0.1 - - [20/May/2025 16:04:12] "GET / HTTP/1.1" 200 -
+2025-05-20 16:04:12,811 - INFO - 127.0.0.1 - - [20/May/2025 16:04:12] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -
+2025-05-20 16:04:16,721 - INFO - 127.0.0.1 - - [20/May/2025 16:04:16] "GET /user/profile HTTP/1.1" 200 -
+2025-05-20 16:04:22,852 - INFO - Admin Osama Sadeq accessed home page directly
+2025-05-20 16:04:22,855 - INFO - Total featured courses retrieved: 2
+2025-05-20 16:04:22,855 - INFO - Total courses retrieved: 6
+2025-05-20 16:04:22,857 - INFO - 127.0.0.1 - - [20/May/2025 16:04:22] "GET / HTTP/1.1" 200 -
+2025-05-20 16:04:22,890 - INFO - 127.0.0.1 - - [20/May/2025 16:04:22] "[36mGET /static/images/j.png HTTP/1.1[0m" 304 -

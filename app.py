@@ -12,7 +12,6 @@ import httpx
 import jwt
 from flask_testing import TestCase
 import datetime
-import test_app
 app = Flask(__name__)
 app.secret_key = 'Os(int;;);' 
 login_manager = LoginManager()
@@ -191,7 +190,7 @@ def stream():
 
             # إرسال البيانات بتنسيق JSON
             yield f"data: {json.dumps({'courses': courses_list}, ensure_ascii=False)}\n\n"
-            time.sleep(5)  # تحديث كل 5 ثوانٍ
+            time.sleep(5) 
 
     return Response(generate(), content_type='text/event-stream')
 
@@ -222,8 +221,16 @@ def delete_message(message_id):
     return redirect(url_for('contantgroup'))
 
 @app.route('/admin/index')
+@login_required
 def admin():
     return render_template('admin/index.html')
+
+
+@app.route('/course')
+@login_required
+def course():
+    return render_template('course.html')
+
 
 @app.route('/user/login', methods=['GET', 'POST'])
 def login():
